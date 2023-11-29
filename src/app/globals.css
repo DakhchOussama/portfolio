@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=IBM+Plex+Sans:wght@200&family=Roboto:ital,wght@1,100&display=swap');
+
 *{
   box-sizing: content-box;
   margin: 0;
@@ -33,7 +35,7 @@ nav{
 
 .navbar-parent-left a{
     color: #a9a7a7;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
     cursor: pointer;
 }
@@ -65,18 +67,15 @@ nav{
   height: calc(100vh - 100px);
   display: flex;
   justify-content: center;
-  /* background-color: red; */
 }
 
 .identification-center{
-  /* background-color: white; */
   width: 72%;
   height: 100%;
   display: flex;
   flex-direction: row;
 }
 .identification-center-name{
-  /* background-color: aqua; */
   display: flex;
   justify-content: center;
   width: 70%;
@@ -85,7 +84,6 @@ nav{
 }
 
 .identification-center-name1{
-    /* background-color: bisque; */
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -100,6 +98,7 @@ nav{
 .identification-center-name1 p{
   color: #9C9C9C;
   font-size: 20x;
+  font-family: 'IBM Plex Sans', sans-serif;
   margin-bottom: 40px;
 }
 
@@ -132,6 +131,7 @@ nav{
     background: none;
     border: none;
     background-color: #23a6dd;
+    font-weight: 600;
     width: 25%;
     height: 55%;
     color: white;
@@ -140,6 +140,218 @@ nav{
 
 .identification-center-buttom button:hover{
   border: 1px solid #fff;
+}
+
+.CaseStudies-section{
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.CaseStudies-container{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  width: 64%;
+}
+
+.CaseStudies-header{
+  height: 16%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 25px; */
+  margin-bottom: 15px;
+}
+
+.CaseStudies-header h1{
+  font-size: 35px;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 9px;
+  margin-top: 15px;
+}
+
+.CaseStudies-header p {
+	width: 52%;
+	color: #9C9C9C;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.CaseStudies-project1{
+  /* background-color: red; */
+  height: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#CaseStudies-project-first{
+  height: 29%;
+}
+
+#CaseStudies-different-right{
+}
+
+.CaseStudies-project1-left{
+  /* background-color: blue; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+
+.CaseStudies-project1-right{
+  width: 50%;
+}
+
+.CaseStudies-project1-right img{
+  width: 100%;
+  height: 96%;
+}
+
+.CaseStudies-lang {
+	width: 61px;
+	height: 21px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	border-radius: 9px;
+  margin-bottom: 15px;
+}
+
+.CaseStudies-project1-information{
+  margin: 10px 0;
+}
+
+.CaseStudies-project1-information h2{
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 10px;
+  font-size: 27px;
+}
+
+.CaseStudies-project1-information p{
+  color: #9C9C9C;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  width: 73%;
+}
+
+.CaseStudies-project1-left a {
+	background-color: #FFA217;
+	width: 40%;
+	border: none;
+	height: 40px;
+	margin-top: 14px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.transcendance-lang {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+  margin-bottom: 16px;
+	/* justify-content: space-around; */
+}
+
+.lang {
+	width: 44px;
+	display: flex;
+	height: 21px;
+	align-content: center;
+	justify-content: center;
+	border-radius: 7px;
+}
+
+#html,
+#css,
+#js,
+#react,
+#ts,
+#next, 
+#nest,
+#docker,
+#c {
+  background-color: orange;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+#html p,
+#css p,
+#js p,
+#react p,
+#ts p,
+#next p,
+#nest p,
+#docker p,
+#c p
+ {
+  font-size: 11px;
+}
+
+#css{
+  background-color: #1a85e4;
+}
+
+#js{
+  background-color: rgb(228, 228, 54);
+}
+
+#ts{
+  background-color: #22f;
+}
+
+#react{
+    background-color: #4f8af9;
+}
+
+
+#next{
+    background-color: #111010;
+}
+
+#nest{
+  background-color: #f92e2e;
+}
+
+#transcendance-btn{
+  background-color: #2AB090;
+  color: white;
+  font-weight: 600;
+}
+
+#docker{
+  background-color: #00b7ff;
+  width: 54px;
+}
+
+#view2{
+  background-color: #000AFF;
+}
+
+#c{
+  background-color: #1a4fee;
+}
+
+#CaseStudies-different{
+  /* background-color: red; */
 }
 
 

@@ -10,7 +10,7 @@ export default function NavBar()
                     <div className="navbar-parent">
                         <div className="navbar-parent-left">
                             <a>Home</a>
-                            <a>Case Studies</a>
+                            <a>Projects</a>
                             <a>Testimonials</a>
                             <a>Recent work</a>
                             <a>Get In Touch</a>
