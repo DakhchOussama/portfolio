@@ -18,8 +18,75 @@ nav{
 
 .navbar-back{
   width: 70%;
-  height: 80%;
   background-color: #201e1e;
+  padding: 20px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
+}
+
+.navbar-parent{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-parent-left a{
+    color: #a9a7a7;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.navbar-parent-left a:hover{
+  color: white;
+  font-weight: 700;
+}
+
+.navbar-parent-left{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar-parent-right{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar-parent-right a img path{
+  fill: aqua;
+}
+
+
+/* Phone Screen */
+
+@media screen and (max-width: 796px) {
+  .navbar-parent-left a{
+    font-size: 14px;
+  }
+  .navbar-parent-right a img{
+    width: 30px;
+    height: 30px;
+  }
+  .navbar-back{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 585px){
+  .navbar-parent-left a{
+    font-size: 25%;
+  }
+  .navbar-parent-right a img{
+    width: 20px;
+    height: 20px;
+  }
+  .navbar-back{
+    width: 94%;
+    padding: 10px 0px;
+  }
 }

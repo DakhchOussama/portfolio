@@ -1,11 +1,13 @@
-import Image from 'next/image'
-import styles from './page.module.css'
 import NavBar from './Components/NavBar'
+import Section from './Components/Section'
 
 export default function Home() {
   return (
-    <main>
+    <>
+      <main>
       <NavBar></NavBar>
-    </main>
+      <Section></Section>
+      </main>
+    </>
   )
 }
