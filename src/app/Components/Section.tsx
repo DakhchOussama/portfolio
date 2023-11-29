@@ -8,7 +8,7 @@ export default function Section(){
                     <div className="identification-center-name">
                         <div className="identification-center-name1">
                         <h1>Oussama Dakhch</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sed fugiat eaque vero ratione, amet qui ipsa esse quae illo rem, blanditiis assumenda ab quam facilis, reprehenderit maiores enim tempora?</p>
+                        <p>My name is <span>Oussama Dakhch</span>, and I work as a Software Developer. I am deeply passionate about technology and enjoy crafting innovative solutions for complex problems. Known for my hardworking and dedicated nature, I am always eager to acquire new skills and techniques</p>
                         </div>
                         <div className="identification-center-buttom">
                             <button>Let's get started</button>
@@ -16,7 +16,7 @@ export default function Section(){
 
                     </div>
                     <div className="identification-center-photo">
-                        <img></img>
+                        <img src="mypicture.jpg"></img>
                     </div>
 
                 </div>

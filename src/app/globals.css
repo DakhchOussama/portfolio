@@ -57,8 +57,89 @@ nav{
   justify-content: space-around;
 }
 
-.navbar-parent-right a img path{
-  fill: aqua;
+.navbar-parent-right img{
+  opacity: 0.9;
+}
+
+.identication{
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.identification-center{
+  /* background-color: white; */
+  width: 72%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.identification-center-name{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 80%;
+  flex-direction: column;
+}
+
+.identification-center-name1{
+    /* background-color: bisque; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.identification-center-name1 h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.identification-center-name1 p{
+  color: #9C9C9C;
+  font-size: 20x;
+  margin-bottom: 40px;
+}
+
+.identification-center-name1 p span{
+  color: #23a6dd;
+}
+
+.identification-center-photo{
+  width: 30%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.identification-center-photo img{
+  border-radius: 50%;
+  width: 330px;
+  height: 330px;
+}
+
+.identification-center-buttom{
+  /* background-color: red; */
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.identification-center-buttom button{
+    background: none;
+    border: none;
+    background-color: #23a6dd;
+    width: 25%;
+    height: 55%;
+    color: white;
+    cursor: pointer;
+}
+
+.identification-center-buttom button:hover{
+  border: 1px solid #fff;
 }
 
 
@@ -75,6 +156,19 @@ nav{
   .navbar-back{
     width: 80%;
   }
+  .identification-center-photo img{
+    width: 215px;
+    height: 215px;
+  }
+  .identification-center{
+    width: 88%;
+  }
+  .identification-center-buttom button{
+    width: 84%;
+  }
+  .identification-center-photo{
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 585px){
@@ -88,5 +182,21 @@ nav{
   .navbar-back{
     width: 94%;
     padding: 10px 0px;
+  }
+  .identification-center-photo img{
+    width: 180px;
+    height: 180px;
+  }
+  .identification-center-buttom button{
+    height: 44px;
+  }
+  .identification-center-name1 h1{
+    font-size: 39px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .identification-center-name{
+    width: 51%;
   }
 }

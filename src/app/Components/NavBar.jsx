@@ -16,9 +16,9 @@ export default function NavBar()
                             <a>Get In Touch</a>
                         </div>
                         <div className="navbar-parent-right">
-                            <a target="_blank" href="https://www.facebook.com/profile.php?id=100004990874791"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/facebook/facebook-original.svg" alt="facebook" width="35" height="35"/></a>
-                            <a target="_blank" href="https://github.com/DakhchOussama"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="35" height="35"/></a>
-                            <a target="_blank" href="https://www.linkedin.com/in/oussama-dakhch-608964257/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="linkedin" width="35" height="35"/></a>
+                            <a target="_blank" href="https://www.facebook.com/profile.php?id=100004990874791"><img src="facebook.png" alt="facebook" width="35" height="35"/></a>
+                            <a target="_blank" href="https://github.com/DakhchOussama"><img src="github.png" alt="github" width="35" height="35"/></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/oussama-dakhch-608964257/"><img src="linkedin.png" alt="linkedin" width="35" height="35"/></a>
                         </div>
                     </div>
                 </div>
