@@ -23,13 +23,13 @@ export default function CaseStudies(){
                             <a href="https://github.com/iel-bakk/42-FT_IRC" target="_blank">View case study</a>
                         </div>
                         <div className="CaseStudies-project1-right">
-                            <img src="limechat-2.png"></img>
+                            <img src="limechat.png"></img>
                         </div>
                     </div>
                     {/* project 2 */}
                     <div className="CaseStudies-project1" id="CaseStudies-different">
                         <div className="CaseStudies-project1-right">
-                            <img></img>
+                            <img src="cub3d.png"></img>
                         </div>
                         <div className="CaseStudies-project1-left" id="CaseStudies-different-right">
                         <div className="CaseStudies-lang">
@@ -39,9 +39,9 @@ export default function CaseStudies(){
                         </div>
                         <div className="CaseStudies-project1-information">
                             <h2>Cub3D</h2>
-                            <p>Designed and implemented an Internet Relay Chat (IRC) server using C++ language, socket programming. Developed skills in problem-solving, critical thinking, and communication through peer reviews and code debugging sessions.</p>
+                            <p>This project involved creating a 3D game using the C programming language and the raycasting technique. Through this experience, I gained a deep understanding of graphics programming, including concepts like textures, floor and ceiling rendering, and player movement. The project not only honed my coding skills but also fostered problem-solving abilities as I tackled complex challenges in creating a visually engaging and interactive game. Cub3D not only expanded my technical proficiency but also instilled a passion for graphics programming and game development."</p>
                         </div>
-                            <button id="view2">View case study </button>
+                            <a href="https://github.com/DakhchOussama/Cub3d" target="_blank" id="btn-cub">View case study</a>
                         </div>
                     </div>
                     {/* project 3 */}
@@ -61,7 +61,7 @@ export default function CaseStudies(){
                                 <h2>Ft_Transcendence</h2>
                                 <p>Developed a comprehensive Dashboard with front-end and back-end components, featuring user registration, login, profile pages, chat functionality, and an interactive game space. Collaborated with a team of peers to manage project tasks, resolve issues, and ensure timely project completion</p>
                             </div>
-                            <button id="transcendance-btn">View case study </button>
+                            <a href="https://github.com/soufiane-amt/ft_transcendance" target="_blank" id="btn-tran" >View case study</a>
                         </div>
                         <div className="CaseStudies-project1-right">
                             <img src="ft_transcendance.png"></img>
