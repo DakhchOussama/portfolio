@@ -64,7 +64,7 @@ export default function CaseStudies(){
                             <a href="https://github.com/soufiane-amt/ft_transcendance" target="_blank" id="btn-tran" >View case study</a>
                         </div>
                         <div className="CaseStudies-project1-right">
-                            <img src="ft_transcendance.png"></img>
+                            <img src="ft_transcendance.png" id="trans-image"></img>
                         </div>
                     </div>
                 </div>

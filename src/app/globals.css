@@ -184,7 +184,7 @@ nav{
 
 .CaseStudies-project1{
   /* background-color: red; */
-  height: 30%;
+  height: 31%;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -214,6 +214,7 @@ nav{
 .CaseStudies-project1-right img{
   width: 100%;
   height: 94%;
+  border-radius: 9px;
 }
 
 .CaseStudies-lang {
@@ -352,7 +353,11 @@ nav{
 
 #CaseStudies-different{
   /* background-color: red; */
-  height: 34%;
+  height: 33%;
+}
+
+#trans-image{
+  margin-top: 6px;
 }
 
 #btn-tran{
@@ -468,6 +473,23 @@ nav{
 
 #left-bottom{
   left: 52%;
+}
+
+.education{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.education-container {
+	height: 100%;
+	width: 60%;
+}
+
+.education-icon img{
+  width: 20px;
+  height: 20px;
 }
 
 
