@@ -16,7 +16,7 @@ export default function Education(){
                         {/* 1 */}
                         <div className="education-information">
                             <div className="education-img">
-                                <img></img>
+                                <img src="Logo_UHIIC.png"></img>
                             </div>
                             <div className="education-para">
                                 <h2>Université Hassan II of Casablanca</h2>
@@ -27,11 +27,11 @@ export default function Education(){
                         {/* 2 */}
                         <div className="education-information">
                             <div className="education-img">
-                                <img></img>
+                                <img src="1337.jpg"></img>
                             </div>
                             <div className="education-para">
-                                <h2>National School of Applied Sciences</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora praesentium odio sed id fugit iste vitae magni. Facilis, nobis distinctio, repellat eligendi ea vitae totam quod explicabo officia ab asperiores!</p>
+                                <h2>School of Software Engineering 1337</h2>
+                                <p id="education-para-def">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam inventore voluptas, quis cum enim consequuntur quasi veniam provident vel accusantium ratione aspernatur, animi earum ab possimus quia! Commodi, similique delectus!</p>
                                 <a>Know more</a>
                             </div>
                         </div>
@@ -42,7 +42,18 @@ export default function Education(){
                             </div>
                             <div className="education-para">
                                 <h2>School of Software Engineering 1337</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam inventore voluptas, quis cum enim consequuntur quasi veniam provident vel accusantium ratione aspernatur, animi earum ab possimus quia! Commodi, similique delectus!</p>
+                                <p id="education-para-def">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam inventore voluptas, quis cum enim consequuntur quasi veniam provident vel accusantium ratione aspernatur, animi earum ab possimus quia! Commodi, similique delectus!</p>
+                                <a>Know more</a>
+                            </div>
+                        </div>
+                        {/* 4 */}
+                        <div className="education-information">
+                            <div className="education-img">
+                                <img src="ensab.png"></img>
+                            </div>
+                            <div className="education-para">
+                                <h2>National School of Applied Sciences</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora praesentium odio sed id fugit iste vitae magni. Facilis, nobis distinctio, repellat eligendi ea vitae totam quod explicabo officia ab asperiores!</p>
                                 <a>Know more</a>
                             </div>
                         </div>
