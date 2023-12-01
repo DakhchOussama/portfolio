@@ -6,38 +6,35 @@ interface MyAnimationProps{
 }
 
 export default function MyAnimation({children} : MyAnimationProps){
-    const [chevron, setChevron] = useState<number>(0);
-  const [startIndex, setStartIndex] = useState<number>(0);
+    const [chevron, setchevron] = useState(0);
+    const elementStyles = {
+        /* Your initial styles here */
+        transitionProperty: 'transform',
+        transitionTimingFunction: 'ease-out',
+        transitionDuration: '500ms',
+        transform: `translateX(-${chevron * 25}%)`
+      };
 
-  const elementStyles: React.CSSProperties = {
-    /* Your initial styles here */
-    transitionProperty: "transform",
-    transitionTimingFunction: "ease-out",
-    transitionDuration: "500ms",
-    transform: `translateX(-${chevron * 100}%)`,
-  };
+    const prev = () => {
+        setchevron((chevron) => (chevron === 0 ? React.Children.count(children) - 2 : chevron - 2));
+      };
 
-  const prev = () => {
-    setChevron((prevChevron) => (prevChevron === 0 ? React.Children.count(children) - 1 : prevChevron - 1));
-    setStartIndex((prevIndex) => Math.max(0, prevIndex - 2));
-  };
-
-  const next = () => {
-    setChevron((prevChevron) => (React.Children.count(children) - 1 ? 0 : prevChevron + 1));
-    setStartIndex((prevIndex) => Math.min(React.Children.count(children) - 2, prevIndex + 2));
-  };
-
-  return (
-    <>
-      <div className="education-icon" id="left" onClick={prev}>
-        <img src="left-arrow.png" alt="left-arrow"></img>
-      </div>
-      <div className="MyAnimation" style={elementStyles}>
-        {React.Children.toArray(children).slice(startIndex, startIndex + 2)}
-      </div>
-      <div className="education-icon" onClick={next} id="right">
-        <img src="right-chevron.png" alt="right-chevron"></img>
-      </div>
-    </>
-  );
+    const next = () => {
+        setchevron((chevron) => (chevron === React.Children.count(children) - 2 ?  0 : chevron + 2));
+      };
+    return(
+        <>
+        <div className="education-icon" id="left" onClick={prev}>
+            <img src="left-arrow.png"></img>
+        </div>
+        <div className="MyAnimation">
+            <div className="MyAnimation-child" style={elementStyles}>
+                {children}
+            </div>
+        </div>
+        <div className="education-icon" id="right" onClick={next}>
+            <img src="right-chevron.png"></img>
+        </div>
+        </>
+    )
 }

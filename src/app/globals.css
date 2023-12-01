@@ -522,7 +522,7 @@ nav{
 }
 
 .education-section {
-  height: calc(72% - 15px);
+  height: calc(70% - 15px);
   display: flex;
   align-items: center;
   width: calc(26cm - 27px);
@@ -608,6 +608,10 @@ nav{
 
 .education-icon{
   cursor: pointer;
+}
+
+.MyAnimation-child{
+  display: flex;
 }
 
 /* .animation-hidden{
