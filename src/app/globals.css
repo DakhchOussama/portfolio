@@ -481,7 +481,7 @@ nav{
   background-color: white;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 97vh;
 }
 
 .education-container {
@@ -490,8 +490,8 @@ nav{
 }
 
 .education-icon img{
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
 }
 
 .education-header {
@@ -540,12 +540,12 @@ nav{
 }
 
 .education-img img{
-  width: 420px;
+  width: 410px;
   height: 420px;
+  border-radius: 13px;
 }
 
 .education-para {
-	margin-top: 24px;
 	width: 100%;
 	height: 31%;
   display: flex;
@@ -564,13 +564,24 @@ nav{
   margin: 23px 0;
 }
 
-#education-para-def{
-  margin: 14px 0;
-}
-
 .education-para{
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
+}
+
+.education-para a {
+  height: 38px;
+  background: #23a6dd;
+  color: white;
+  font-family: 'Arial';
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /* @media screen and (max-width: 1806px) {

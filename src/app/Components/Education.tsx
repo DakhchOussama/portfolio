@@ -1,6 +1,48 @@
 import React from "react";
 
 export default function Education(){
+    const slides = [
+        <div className="education-information">
+            <div className="education-img">
+                <img src="Université-Casablanca.png"></img>
+            </div>
+            <div className="education-para">
+                <h2>Université Hassan II of Casablanca</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam inventore voluptas, quis cum enim consequuntur quasi veniam provident vel accusantium ratione aspernatur, animi earum ab possimus quia! Commodi, similique delectus!</p>
+                <a href="https://www.univh2c.ma/" target="_blank">Know more</a>
+            </div>
+        </div>,
+        <div className="education-information">
+            <div className="education-img">
+                <img src="1337.jpg"></img>
+            </div>
+            <div className="education-para">
+                <h2>School of Software Engineering 1337</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam inventore voluptas, quis cum enim consequuntur quasi veniam provident vel accusantium ratione aspernatur, animi earum ab possimus quia! Commodi, similique delectus!</p>
+                <a href="https://1337.ma/en/" target="_blank">Know more</a>
+            </div>
+        </div>,
+        <div className="education-information">
+            <div className="education-img">
+                <img></img>
+            </div>
+            <div className="education-para">
+                <h2>School of Software Engineering 1337</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam inventore voluptas, quis cum enim consequuntur quasi veniam provident vel accusantium ratione aspernatur, animi earum ab possimus quia! Commodi, similique delectus!</p>
+                <a>Know more</a>
+            </div>
+        </div>,
+        <div className="education-information">
+            <div className="education-img">
+                <img src="logo2.png"></img>
+            </div>
+            <div className="education-para">
+                <h2>National School of Applied Sciences</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam inventore voluptas, quis cum enim consequuntur quasi veniam provident vel accusantium ratione aspernatur, animi earum ab possimus quia! Commodi, similique delectus!</p>
+                <a href="http://www-ensab.uh1.ac.ma/" target="_blank">Know more</a>
+            </div>
+        </div>
+    ]
     return (
         <>
             <div className="education">
@@ -11,52 +53,16 @@ export default function Education(){
                     </div>
                     <div className="education-section">
                         <div className="education-icon">
-                            <img src="right-chevron.png"></img>
+                            <img src="left-arrow.png"></img>
                         </div>
                         {/* 1 */}
-                        <div className="education-information">
-                            <div className="education-img">
-                                <img src="Logo_UHIIC.png"></img>
-                            </div>
-                            <div className="education-para">
-                                <h2>Université Hassan II of Casablanca</h2>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque a tenetur doloribus consequatur? Quas quae rerum beatae vel! Aliquid magnam cum, unde itaque ipsum laudantium modi incidunt dolor earum vero.</p>
-                                <a>Know more</a>
-                            </div>
-                        </div>
+                        
                         {/* 2 */}
-                        <div className="education-information">
-                            <div className="education-img">
-                                <img src="1337.jpg"></img>
-                            </div>
-                            <div className="education-para">
-                                <h2>School of Software Engineering 1337</h2>
-                                <p id="education-para-def">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam inventore voluptas, quis cum enim consequuntur quasi veniam provident vel accusantium ratione aspernatur, animi earum ab possimus quia! Commodi, similique delectus!</p>
-                                <a>Know more</a>
-                            </div>
-                        </div>
+                        
                         {/* 3 */}
-                        <div className="education-information">
-                            <div className="education-img">
-                                <img></img>
-                            </div>
-                            <div className="education-para">
-                                <h2>School of Software Engineering 1337</h2>
-                                <p id="education-para-def">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam inventore voluptas, quis cum enim consequuntur quasi veniam provident vel accusantium ratione aspernatur, animi earum ab possimus quia! Commodi, similique delectus!</p>
-                                <a>Know more</a>
-                            </div>
-                        </div>
+                        
                         {/* 4 */}
-                        <div className="education-information">
-                            <div className="education-img">
-                                <img src="ensab.png"></img>
-                            </div>
-                            <div className="education-para">
-                                <h2>National School of Applied Sciences</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora praesentium odio sed id fugit iste vitae magni. Facilis, nobis distinctio, repellat eligendi ea vitae totam quod explicabo officia ab asperiores!</p>
-                                <a>Know more</a>
-                            </div>
-                        </div>
+                        
                         <div className="education-icon">
                             <img src="right-chevron.png"></img>
                         </div>
