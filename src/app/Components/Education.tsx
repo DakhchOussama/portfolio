@@ -1,4 +1,5 @@
 import React from "react";
+import MyAnimation from "./MyAnimation";
 
 export default function Education(){
     const slides = [
@@ -52,20 +53,13 @@ export default function Education(){
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quae voluptas at iste corrupti rerum alias veritatis, aut officiis qui recusandae ab maxime itaque architecto incidunt animi sapiente harum accusantium.</p>
                     </div>
                     <div className="education-section">
-                        <div className="education-icon">
-                            <img src="left-arrow.png"></img>
-                        </div>
-                        {/* 1 */}
-                        
-                        {/* 2 */}
-                        
-                        {/* 3 */}
-                        
-                        {/* 4 */}
-                        
-                        <div className="education-icon">
-                            <img src="right-chevron.png"></img>
-                        </div>
+                        <MyAnimation>
+                          {slides.map((slide, index) => (
+                            <React.Fragment key={index}>
+                              {slide}
+                            </React.Fragment>
+                          ))}
+                        </MyAnimation>
                     </div>
                 </div>
             </div>
