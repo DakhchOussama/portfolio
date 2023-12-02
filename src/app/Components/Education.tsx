@@ -25,12 +25,12 @@ export default function Education(){
         </div>,
         <div className="education-information">
             <div className="education-img">
-                <img></img>
+                <img src="sidibn (1).png"></img>
             </div>
             <div className="education-para">
-                <h2>School of Software Engineering 1337</h2>
+                <h2>École Supérieure de Technologie</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam inventore voluptas, quis cum enim consequuntur quasi veniam provident vel accusantium ratione aspernatur, animi earum ab possimus quia! Commodi, similique delectus!</p>
-                <a>Know more</a>
+                <a href="https://www.estsb.ucd.ac.ma/">Know more</a>
             </div>
         </div>,
         <div className="education-information">

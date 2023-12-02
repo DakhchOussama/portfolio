@@ -372,7 +372,7 @@ nav{
 }
 
 .feedbacks {
-  height: calc(21cm + 24px);
+  height: calc(25cm + 24px);
   display: flex;
   justify-content: center;
 }
@@ -465,9 +465,7 @@ nav{
 
 .container-quote {
   position: relative;
-  /* top: -4px; */
-  /* border: 0px; */
-  bottom: 89px;
+  bottom: 114px;
   left: 21px;
 }
 
@@ -642,8 +640,7 @@ nav{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 106px;
-  /* margin-right: 40px; */
+  margin-left: 106px;  
 }
 
 .GetInTouc-input {
@@ -659,7 +656,7 @@ nav{
   height: 77px;
   width: 76%;
   display: flex;
-  border-radius: 13px;
+  border-radius: 5px;
   border: none;
   outline: none;
   margin-top: 17px;
@@ -675,7 +672,8 @@ nav{
 .GetInTouc-input label {
   font-family: 'Arial';
   color: white;
-  font-size: 18px;
+  font-size: 16px;
+  margin-left: 14px;
 }
 
 .GetInTouc-buttom {
@@ -696,11 +694,21 @@ nav{
   align-items: center;
   justify-content: center;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .submit-button a{
   color: white;
   font-family: 'Arial', sans-serif;
+}
+
+.submit-button:hover{
+  border: 1px solid #23a6dd;
+  background: black;
+}
+
+.submit-button:hover a{
+  color: #09adf3;
 }
 
 #GetInTouc-message{
@@ -761,11 +769,22 @@ nav{
     top: 0px;
   }
   .container-quote{
-    bottom: 79px;
+    bottom: 106px;
   }
   #right-bottom {
     top: -10px;
-}
+  }
+  .GetInTouc-container {
+    width: 18cm;
+    align-items: flex-start;
+    margin-left: 0;
+  }
+  .GetInTouc-input input, .GetInTouc-input textarea{
+  width: 100%;
+  }
+  .GetInTouc-input {
+      width: 85%;
+  }
 }
 
 @media screen and (max-width: 1236px) {
@@ -924,7 +943,30 @@ nav{
   }
   .education-header h1 {
     font-size: 28px;
-}
+  }
+  .GetInTouc-input input{
+      height: 63px;
+  }
+  .GetInTouc-input textarea{
+      height: 160px;
+  }
+  .GetInTouc-buttom {
+    width: 31%;
+    height: 7%;
+    margin-left: 0;
+  }
+  .submit-button {
+    height: 48px;
+    width: 188px;
+  }
+  .GetInTouc-input input, .GetInTouc-input textarea{
+    width: 100%;
+  }
+  .GetInTouc-container{
+    width: 13cm;
+    margin-right: 40px;
+    margin-left: 10px;
+  }
 }
 
 @media screen and (max-width: 585px){
