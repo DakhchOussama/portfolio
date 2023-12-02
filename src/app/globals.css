@@ -154,7 +154,7 @@ nav{
   display: flex;
   flex-direction: column;
   /* justify-content: space-around; */
-  width: 70%;
+  width: 68%;
 }
 
 .CaseStudies-header{
@@ -481,7 +481,7 @@ nav{
   background-color: white;
   display: flex;
   justify-content: center;
-  height: 97vh;
+  height: 100vh;
 }
 
 .education-container {

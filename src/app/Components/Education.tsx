@@ -5,12 +5,12 @@ export default function Education(){
     const slides = [
         <div className="education-information">
             <div className="education-img">
-                <img src="Université-Casablanca.png"></img>
+                <img src="ensanewlogo.png"></img>
             </div>
             <div className="education-para">
-                <h2>Université Hassan II of Casablanca</h2>
+                <h2>National School of Applied Sciences</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam inventore voluptas, quis cum enim consequuntur quasi veniam provident vel accusantium ratione aspernatur, animi earum ab possimus quia! Commodi, similique delectus!</p>
-                <a href="https://www.univh2c.ma/" target="_blank">Know more</a>
+                <a href="http://www-ensab.uh1.ac.ma/" target="_blank">Know more</a>
             </div>
         </div>,
         <div className="education-information">
@@ -35,14 +35,15 @@ export default function Education(){
         </div>,
         <div className="education-information">
             <div className="education-img">
-                <img src="logo2.png"></img>
+                <img src="Université-Casablanca.png"></img>
             </div>
             <div className="education-para">
-                <h2>National School of Applied Sciences</h2>
+                <h2>Université Hassan II of Casablanca</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam inventore voluptas, quis cum enim consequuntur quasi veniam provident vel accusantium ratione aspernatur, animi earum ab possimus quia! Commodi, similique delectus!</p>
-                <a href="http://www-ensab.uh1.ac.ma/" target="_blank">Know more</a>
+                <a href="https://www.univh2c.ma/" target="_blank">Know more</a>
             </div>
         </div>
+    
     ]
     return (
         <>
