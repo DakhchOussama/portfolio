@@ -13,7 +13,9 @@ export default function Feedbacks(){
                     <div className="feedbacks-section">
                         {/* 1 */}
                         <div className="feedbacks-poeple">
-                            <img className="quote" src="quote.png"></img>
+                            <div className="container-quote">
+                                <img className="quote" src="quote.png" id="another-quote"></img>
+                            </div>
                             <div className="feedbacks-msg">
                                 <p> perfect ui designe the game was also smooth noting to add more gd luck guys</p>
                             </div>
@@ -24,7 +26,9 @@ export default function Feedbacks(){
                         </div>
                         {/* 2 */}
                         <div className="feedbacks-poeple">
-                            <img className="quote" src="quote.png" id="left-top"></img>
+                            <div className="container-quote">
+                                <img className="quote" src="quote.png" id="left-top"></img>
+                            </div>
                             <div className="feedbacks-msg">
                                 <p id="abberkac-feedback"> great job guys, the web site work flexibly, the game and chat also works perfect, I like the waiting animation, good luck </p>
                             </div>
@@ -35,7 +39,9 @@ export default function Feedbacks(){
                         </div>
                         {/* 3 */}
                         <div className="feedbacks-poeple">
-                            <img className="quote" src="quote.png" id="right-bottom"></img>
+                            <div className="container-quote">
+                                <img className="quote" src="quote.png" id="right-bottom"></img>
+                            </div>
                             <div className="feedbacks-msg">
                                 <p> Great effort putted into the project, well explained! Tbarklah 3likom </p>
                             </div>
@@ -46,7 +52,9 @@ export default function Feedbacks(){
                         </div>
                         {/* 4 */}
                         <div className="feedbacks-poeple">
-                            <img className="quote" src="quote.png" id="left-bottom"></img>
+                            <div className="container-quote">
+                                <img className="quote" src="quote.png" id="left-bottom"></img>
+                            </div>
                             <div className="feedbacks-msg">
                                 <p> Good explanation every thing was clear good luck for your next projects too :3 </p>
                             </div>

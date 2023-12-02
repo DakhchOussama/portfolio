@@ -1,8 +1,24 @@
+// @ts-ignore
 import React from "react";
 
 export default function Section(){
+    
     return (
         <>
+        {/* <script src="three.r134.min.js"></script>
+            <script src="vanta.net.min.js"></script>
+            <script>
+            VANTA.NET({
+              el: ".identication",
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00
+        })
+        </script> */}
             <div className="identication">
                 <div className="identification-center">
                     <div className="identification-center-name">
