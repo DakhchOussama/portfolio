@@ -35,7 +35,7 @@ export default function Education(){
         </div>,
         <div className="education-information">
             <div className="education-img">
-                <img src="Université-Casablanca.png"></img>
+                <img src="UniversitéCasablanca.png"></img>
             </div>
             <div className="education-para">
                 <h2>Université Hassan II of Casablanca</h2>

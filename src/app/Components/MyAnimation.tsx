@@ -21,7 +21,6 @@ export default function MyAnimation({children} : MyAnimationProps){
       };
 
     const checkwidthpage_prev = () => {
-        console.log('width : ', window.innerWidth);
         if (window.innerWidth <= 796 ){
             setchevron((chevron) => (chevron === 0 ? React.Children.count(children) - 1 : chevron - 1));  
         }

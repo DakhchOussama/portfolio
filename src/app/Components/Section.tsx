@@ -5,6 +5,8 @@ export default function Section(){
     
     return (
         <>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
         {/* <script src="three.r134.min.js"></script>
             <script src="vanta.net.min.js"></script>
             <script>

@@ -11,7 +11,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-
 *{
   box-sizing: content-box;
   margin: 0;
@@ -110,7 +109,7 @@ nav{
 }
 
 .identification-center-name1 p{
-  color: #9C9C9C;
+  color: #e3dddd;
   font-size: 20x;
   font-family: 'IBM Plex Sans', sans-serif;
   margin-bottom: 40px;
@@ -151,6 +150,7 @@ nav{
     color: white;
     cursor: pointer;
     font-family: 'Play', sans-serif;
+    
 }
 
 .identification-center-buttom button:hover{
@@ -172,14 +172,15 @@ nav{
   width: 68%;
 }
 
-.CaseStudies-header{
-  height: 11%;
+.CaseStudies-header {
+  height: 12%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   /* margin-top: 25px; */
   margin-bottom: 15px;
+  justify-content: center;
 }
 
 .CaseStudies-header h1{
@@ -397,11 +398,12 @@ nav{
 }
 
 .feedbacks-header {
-	height: 20%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 17px;
+  height: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 17px;
+  justify-content: center;
 }
 
 .feedbacks-header h1{
@@ -644,7 +646,7 @@ nav{
 
 #GetInTouc {
   background-color: black;
-  height: calc(32cm + 12px);
+  height: calc(26cm + 12px);
 }
 
 #GetInTouc-header{
@@ -734,14 +736,10 @@ nav{
 }
 
 .GetInTouc-input input::placeholder, .GetInTouc-input textarea::placeholder{
-  color: #129cd7;
+  color: #006aff;
   font-family: 'Sora', sans-serif;
   
 }
-
-
-
-
 
 /* Phone Screen */
 
