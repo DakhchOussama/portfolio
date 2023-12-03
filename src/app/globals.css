@@ -75,8 +75,8 @@ nav{
   opacity: 0.9;
 }
 
-.identication{
-  height: calc(100vh - 100px);
+.identication {
+  height: calc(33cm - 126px);
   display: flex;
   justify-content: center;
 }
@@ -86,6 +86,7 @@ nav{
   height: 24cm;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .identification-center-name{
@@ -278,11 +279,10 @@ nav{
 }
 
 .transcendance-lang {
-	display: flex;
-	flex-direction: row;
-	width: 50%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   margin-bottom: 16px;
-	/* justify-content: space-around; */
 }
 
 .lang {
@@ -502,6 +502,8 @@ nav{
   display: flex;
   justify-content: center;
   height: 30cm;
+  display: none;
+
 }
 
 .education-container {
@@ -522,6 +524,7 @@ nav{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-top: 37px;
 }
 
@@ -857,6 +860,9 @@ nav{
 }
 
 @media screen and (max-width: 796px) {
+  .navbar-parent-right {
+    width: 24%;
+}
   .navbar-parent-left a{
     font-size: 14px;
   }
@@ -871,15 +877,34 @@ nav{
     width: 215px;
     height: 215px;
   }
-  .identification-center{
-    width: 88%;
-  }
+  .identification-center {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 19cm;
+}
   .identification-center-buttom button{
-    width: 84%;
+    width: 60%;
   }
-  .identification-center-photo{
-    width: 40%;
+  .identification-center-photo {
+    width: 100%;
+    justify-content: center;
   }
+  .identification-center-name1 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .identification-center-buttom {
+    /* background-color: red; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
   .CaseStudies-project1-information p{
     font-size: 12px;
   }
@@ -921,6 +946,20 @@ nav{
   .education-information {
     width: 6cm;
   }
+  .feedbacks-header p {
+    width: 100%;
+  }
+  .identification-center-photo img {
+    width: 200px;
+    height: 200px;
+  }
+  .identification-center-name1 h1 {
+    font-size: 46px;
+  }
+  .identification-center-name1 p {
+    font-size: 14px;
+    width: 64%;
+}
   .education-img img {
     width: 220px;
     height: 259px;
@@ -980,14 +1019,18 @@ nav{
     margin-right: 40px;
     margin-left: 10px;
   }
+
 }
 
 @media screen and (max-width: 585px){
+  /* .container-quote{
+    right: calc(3cm + 25px);
+  } */
   .CaseStudies-project1-left{
     width: 52%;
   }
   .feedbacks-msg p{
-      font-size: 12px;
+      font-size: 10px;
   }
   #abberkac-feedback{
     font-size: 10px;
@@ -1011,8 +1054,11 @@ nav{
     height: 44px;
   }
   .identification-center-name1 h1{
-    font-size: 39px;
+    font-size: 35px;
   }
+  .identification-center-name1 p {
+    width: 80%;
+}
   .CaseStudies-project1-information p{
     font-size: 11px;
   }
@@ -1024,22 +1070,63 @@ nav{
     font-size: 20px;
   }
   .CaseStudies-project1-right img {
-    height: 39%;
-    margin-top: 44px;
+    height: 80%;
+    margin-top: 0;
 }
 
-.CaseStudies-section{
-  height: 98vh;
+  .CaseStudies-project1 {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.feedbacks-section{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.feedbacks-poeple{
+  justify-content: center;
+}
+.quote {
+  width: 17px;
+  height: 17px;
+}
+.container-quote {
+  bottom: 22px;
+}
+#left-top {
+  top: -3px;
+}
+#another-quote {
+  top: -10px;
+}
+.feedbacks-identif{
+  margin-top: 14px;
+}
+#CaseStudies-different {
+  flex-direction: column;
+}
+
+.CaseStudies-section {
+  height: 44cm;
+}
+#CaseStudies-project-first {
+  height: 36%;
+}
+.CaseStudies-project1-right {
+  height: 50%;
 }
 .feedbacks-container{
   width: 84%;
 }
 .feedbacks-identif h2{
-  font-size: 12px;
+  font-size: 11px;
 }
 .feedbacks-identif img{
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 .feedbacks-header p{
   font-size: 11px;
@@ -1076,7 +1163,7 @@ nav{
 
 @media screen and (max-width: 426px) {
   .identification-center-name{
-    width: 51%;
+    width: 100%;
   }
   .CaseStudies-project1-information p{
     font-size: 7px;
@@ -1095,7 +1182,7 @@ nav{
     height: 38%;
   }
   #CaseStudies-project-first {
-    height: 37%;
+    height: 33%;
   }
   .CaseStudies-project1-right img{
     margin-top: 22px;
@@ -1106,4 +1193,12 @@ nav{
   #html p, #css p, #js p, #react p, #ts p, #next p, #nest p, #docker p, #c p{
     font-size: 9px;
   }
+  .CaseStudies-section {
+    height: 33cm;
+  }
+  .CaseStudies-project1-right img {
+    height: 65%;
+    margin-top: 0;
+  }
+ 
 }
