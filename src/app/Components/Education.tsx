@@ -47,7 +47,7 @@ export default function Education(){
     ]
     return (
         <>
-            <div className="education">
+            <div className="education" id="test">
                 <div className="education-container">
                     <div className="education-header">
                         <h1>Education</h1>
