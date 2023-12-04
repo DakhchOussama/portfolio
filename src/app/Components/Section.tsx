@@ -29,9 +29,16 @@ export default function Section(){
                         <p>My name is <span>Oussama Dakhch</span>, and I work as a Software Developer. I am deeply passionate about technology and enjoy crafting innovative solutions for complex problems. Known for my hardworking and dedicated nature, I am always eager to acquire new skills and techniques</p>
                         </div>
                         <div className="identification-center-buttom">
-                            <button>Let's get started</button>
+                            <a className='button-link' href='#'>
+                            <span>T</span>
+                            <span>H</span>
+                            <span>A</span>
+                            <span>N</span>
+                            <span>K</span>
+                            <span>S</span>
+                            <p>Hover me</p>
+                            </a>
                         </div>
-
                     </div>
                     <div className="identification-center-photo">
                         <img src="mypicture.jpg"></img>

@@ -10,6 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
   box-sizing: content-box;
@@ -140,21 +141,49 @@ nav{
   align-items: center;
 }
 
-.identification-center-buttom button{
-    background: none;
-    border: none;
-    background-color: #23a6dd;
-    font-weight: 600;
-    width: 25%;
-    height: 55%;
-    color: white;
-    cursor: pointer;
-    font-family: 'Play', sans-serif;
-    
+.identification-center-buttom a {
+  color: white;
+  display: flex;
+  font-size: 26px;
+  text-decoration: none;
+  background-color: #23a6dd;
+  width: 6cm;
+  height: 56px;
+  /* color: white; */
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  letter-spacing: 2px;
 }
 
-.identification-center-buttom button:hover{
-  border: 1px solid #fff;
+.identification-center-buttom span,
+.identification-center-buttom p{
+    color: white;
+    font-family: 'Play', sans-serif;
+}
+
+.button-link span{
+      min-width: 0.3em;
+      display: inline-block;
+      text-transform: uppercase;
+      transition: 0.25s cubic-bezier(0.5, -1, 0.5, 2);
+      /* opacity: 0; */
+      transform: translate(0. -20px);
+      position: relative;
+      left: 60px;
+}
+
+.identification-center-buttom-bg {
+  background-color: #23a6dd;
+  width: 6cm;
+  height: 58px;
+  /* color: white; */
+  display: flex;
+  align-items: center;
+}
+
+.button-link{
+
 }
 
 .CaseStudies-section {
@@ -185,7 +214,7 @@ nav{
 
 .CaseStudies-header h1{
   font-size: 35px;
-  font-family: 'Nova Square', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 9px;
   margin-top: 15px;
 }
@@ -406,10 +435,10 @@ nav{
   justify-content: center;
 }
 
-.feedbacks-header h1{
+.feedbacks-header h1 {
   color: white;
   margin-bottom: 15px;
-  font-family: 'Nova Square', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .feedbacks-header p {
@@ -534,7 +563,7 @@ nav{
 
 .education-header h1 {
 	color: black;
-	font-family: 'Nova Square', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin-bottom: 15px;
 }
 
