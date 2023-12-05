@@ -141,6 +141,12 @@ nav{
   align-items: center;
 }
 
+.CaseStudies-project1-left img {
+  width: 21px;
+  height: 18px;
+  margin-left: 3px;
+}
+
 .identification-center-buttom a {
   color: white;
   display: flex;
@@ -154,6 +160,7 @@ nav{
   justify-content: flex-end;
   font-family: 'Play', sans-serif;
   border-radius: 29px;
+  cursor: pointer;
 }
 
 .identification-center-buttom span{
@@ -195,7 +202,7 @@ nav{
 
 .button-link:hover span, .button-link:focus span{
   opacity: 1;
-  color: #00b7ff;
+  color: white;
   transform: translate(0, 0px);
 }
 
@@ -687,6 +694,16 @@ nav{
 .education-para h2 {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
+}
+
+#education-p {
+  margin-bottom: 12px;
+}
+
+#school-para {
+  width: 76%;
+  font-size: 13.5px;
+  margin-bottom: 12px;
 }
 
 .education-para a {

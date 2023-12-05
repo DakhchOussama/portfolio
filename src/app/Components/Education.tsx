@@ -9,7 +9,7 @@ export default function Education(){
             </div>
             <div className="education-para">
                 <h2>National School of Applied Sciences</h2>
-                <p>During my time at this school, I dedicated a year to pursuing studies in computer science, specializing in "génie informatique." Notably, I worked on my second PFE at this institution. The project focused on capturing temperature using a Raspberry Pi and transmitt ing this data to a mobile app. I also successfully obtained my first diploma, DEUT (Diplôme Universitaire de Technologie)</p>
+                <p>During my time at this school, I dedicated a year to pursuing studies in computer science, specializing in "génie informatique."<br></br> Notably, I worked on my second PFE at this institution. The project focused on capturing temperature using a Raspberry Pi and transmitting this data to a mobile app.<br></br> I also successfully obtained my first diploma, DEUT (Diplôme Universitaire de Technologie)</p>
                 <a href="http://www-ensab.uh1.ac.ma/" target="_blank">Know more</a>
             </div>
         </div>,
@@ -19,7 +19,7 @@ export default function Education(){
             </div>
             <div className="education-para">
                 <h2>School of Software Engineering 1337</h2>
-                <p>1337 is my learning hub, where I honed coding skills and acquired knowledge. In two transformative years, I mastered programming languages and engaged in collaborative projects, shaping my technical acumen. 1337 is more than an institution; it's a defining chapter that influenced my skills and ignited a passion for software development.</p>
+                <p id="school-para">1337 is my learning hub, where I honed coding skills and acquired knowledge. In two transformative years, I mastered programming languages and engaged in collaborative projects, shaping my technical acumen. 1337 is more than an institution; it's a defining chapter that influenced my skills and ignited a passion for software development.</p>
                 <a href="https://1337.ma/en/" target="_blank">Know more</a>
             </div>
         </div>,
@@ -29,7 +29,7 @@ export default function Education(){
             </div>
             <div className="education-para">
                 <h2>École Supérieure de Technologie</h2>
-                <p>This is my first station into programming and coding. It is not my best year, but it serves as the foundation where I learned the fundamentals of coding, device operations, mathematics, and algorithms. This education laid the groundwork, offering a crucial understanding of programming's core principles for my subsequent ventures.</p>
+                <p id="education-p">This is my first station into programming and coding. It is not my best year, but it serves as the foundation where I learned the fundamentals of coding, device operations, mathematics, and algorithms. This education laid the groundwork, offering a crucial understanding of programming's core principles for my subsequent ventures.</p>
                 <a href="https://www.estsb.ucd.ac.ma/">Know more</a>
             </div>
         </div>,

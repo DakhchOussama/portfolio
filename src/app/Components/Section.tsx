@@ -1,7 +1,23 @@
-// @ts-ignore
+"use client";
 import React from "react";
 
 export default function Section(){
+
+    const downloadcv = (event: any) => {
+        event.preventDefault();
+        const path_cv = '/CV.pdf';
+
+        const link = document.createElement('a');
+
+        link.href = path_cv;
+
+        link.download = 'CV.pdf';
+
+        document.body.appendChild(link);
+        link.click();
+
+        document.body.removeChild(link);
+    }
     
     return (
         <>
@@ -13,7 +29,7 @@ export default function Section(){
                         <p>My name is <span>Oussama Dakhch</span>, and I work as a Software Developer. I am deeply passionate about technology and enjoy crafting innovative solutions for complex problems. Known for my hardworking and dedicated nature, I am always eager to acquire new skills and techniques</p>
                         </div>
                         <div className="identification-center-buttom">
-                            <a className="button-link" href='#' data-text="Download My Cv">
+                            <a className="button-link" href='#' data-text="Download My Cv" onClick={downloadcv}>
                             <span>T</span>
                             <span>h</span>
                             <span>a</span>
