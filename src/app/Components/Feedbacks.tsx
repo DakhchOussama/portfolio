@@ -8,7 +8,7 @@ export default function Feedbacks(){
                 <div className="feedbacks-container">
                     <div className="feedbacks-header">
                         <h1>Feedbacks</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quae voluptas at iste corrupti rerum alias veritatis, aut officiis qui recusandae ab maxime itaque architecto incidunt animi sapiente harum accusantium.</p>
+                        <p>In the dynamic environment of school 1337, my peers provided constructive feedback that emphasized my effective teamwork, problem-solving, and project management skills. Their insights have been instrumental in shaping my learning journey and contributing to a positive collaborative atmosphere within the school community.</p>
                     </div>
                     <div className="feedbacks-section">
                         {/* 1 */}

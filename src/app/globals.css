@@ -146,13 +146,14 @@ nav{
   display: flex;
   text-decoration: none;
   background-color: #23a6dd;
-  width: calc(8cm - 10px);
-  height: 56px;
+  width: calc(8cm - 20px);
+  height: 48px;
   display: flex;
   align-items: center;
   padding: 5px;
   justify-content: flex-end;
   font-family: 'Play', sans-serif;
+  border-radius: 29px;
 }
 
 .identification-center-buttom span{
@@ -182,6 +183,11 @@ nav{
   left: 13px;
 }
 
+.button-link:hover{
+  background-color: black;
+  border: 1px solid #00b7ff;
+}
+
 .button-link:hover:before, .button-link:focus:before{
     opacity: 0;
     transform:  translate(0, 20px);
@@ -189,6 +195,7 @@ nav{
 
 .button-link:hover span, .button-link:focus span{
   opacity: 1;
+  color: #00b7ff;
   transform: translate(0, 0px);
 }
 
@@ -263,11 +270,11 @@ nav{
 }
 
 .CaseStudies-header p {
-	width: 52%;
-	color: #9C9C9C;
-	font-family: 'Nova Square', sans-serif;
-	font-size: 16px;
-	font-weight: 600;
+  width: 34%;
+  color: #9C9C9C;
+  font-family: 'Nova Square', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .CaseStudies-project1{
@@ -301,7 +308,7 @@ nav{
   align-items: center;
 }
 
-.CaseStudies-project1-right img{
+.CaseStudies-project1-right video{
   width: 80%;
   height: 80%;
   border-radius: 9px;
@@ -335,11 +342,11 @@ nav{
 }
 
 .CaseStudies-project1-left a {
-	background-color: #FFA217;
-	width: 40%;
-	border: none;
-	height: 40px;
-	margin-top: 14px;
+  background-color: #FFA217;
+  width: 33%;
+  border: none;
+  height: 40px;
+  margin-top: 14px;
   cursor: pointer;
   color: white;
   font-weight: 800;
@@ -349,6 +356,7 @@ nav{
   justify-content: center;
   font-size: 13px;
   font-family: 'Play', sans-serif;
+  border-radius: 3px;
 }
 
 .transcendance-lang {
@@ -485,7 +493,7 @@ nav{
 }
 
 .feedbacks-header p {
-  width: 45%;
+  width: 40%;
   color: #9C9C9C;
   font-family: 'Nova Square', sans-serif;
   font-size: 15px;
@@ -611,7 +619,7 @@ nav{
 }
 
 .education-header p {
-  width: 18cm;
+  width: 16cm;
   color: #9C9C9C;
   font-family: 'Nova Square', sans-serif;
   font-size: 14px;
@@ -775,11 +783,10 @@ nav{
   align-items: center;
   justify-content: flex-start;
   margin-top: 20px;
-  padding-left: 18px;
+  margin-left: 2cm;
 }
 
 .submit-button {
-  background: #23a6dd;
   height: 65px;
   width: 345px;
   display: flex;
@@ -810,7 +817,13 @@ nav{
 .GetInTouc-input input::placeholder, .GetInTouc-input textarea::placeholder{
   color: #006aff;
   font-family: 'Sora', sans-serif;
-  
+}
+
+#GetInTouc-a::before {
+  right: -18px;
+  left: -11px;
+  font-size: 23px;
+  letter-spacing: 1px;
 }
 
 /* Phone Screen */
@@ -819,7 +832,7 @@ nav{
   .CaseStudies-container{
     width: 85%;
   }
-  .CaseStudies-project1-right img{
+  .CaseStudies-project1-right video{
     height: 73%;
     width: 85%;
   }
@@ -830,10 +843,10 @@ nav{
     font-size: 13px;
     /* background-color: red; */
   }
-  .CaseStudies-header p{
-    font-size: 14px;
-    width: 65%;
-  }
+  .CaseStudies-header p {
+    font-size: 10px;
+    width: 33%;
+}
 
   .CaseStudies-container{
     width: 97%;
@@ -876,7 +889,7 @@ nav{
 }
 
 @media screen and (max-width: 1236px) {
-  .CaseStudies-project1-right img{
+  .CaseStudies-project1-right video{
     height: 62%;
   }
 }
@@ -893,7 +906,7 @@ nav{
 }
 
 @media screen and (max-width: 952px) {
-  .CaseStudies-project1-right img {
+  .CaseStudies-project1-right video {
     width: 93%;
     height: 56%;
   }
@@ -989,7 +1002,7 @@ nav{
   .CaseStudies-project1-left a{
     height: 32px;
   }
-  .CaseStudies-project1-right img{
+  .CaseStudies-project1-right video{
     height: 49%;
     margin-top: 20px;
     width: 97%;
@@ -1166,7 +1179,7 @@ nav{
   .CaseStudies-project1-information h2 {
     font-size: 20px;
   }
-  .CaseStudies-project1-right img {
+  .CaseStudies-project1-right video {
     height: 73%;
     margin-top: 0;
   }
@@ -1295,7 +1308,7 @@ nav{
   #CaseStudies-project-first {
     height: 33%;
   }
-  .CaseStudies-project1-right img{
+  .CaseStudies-project1-right video{
     margin-top: 22px;
   }
   .transcendance-lang{
@@ -1307,7 +1320,7 @@ nav{
   .CaseStudies-section {
     height: 33cm;
   }
-  .CaseStudies-project1-right img {
+  .CaseStudies-project1-right video {
     height: 65%;
     margin-top: 0;
   }

@@ -3,7 +3,7 @@ import NavBar from './Components/NavBar'
 import Section from './Components/Section'
 import Feedbacks from './Components/Feedbacks'
 import Education from './Components/Education'
-import GetInTouc from './Components/GetInTouc'
+import GetInTouch from './Components/GetInTouch'
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <CaseStudies></CaseStudies>
       <Feedbacks></Feedbacks>
       <Education></Education>
-      <GetInTouc></GetInTouc>
+      <GetInTouch></GetInTouch>
       </main>
     </>
   )

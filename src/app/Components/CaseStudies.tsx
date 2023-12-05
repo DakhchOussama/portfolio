@@ -1,13 +1,26 @@
-import React from "react";
+import React, { useRef } from "react";
 
 export default function CaseStudies(){
+    const videoRef = useRef<HTMLVideoElement>(null);
+
+    const playVideo = () => {
+      if (videoRef.current) {
+        videoRef.current.play();
+      }
+    };
+  
+    const pauseVideo = () => {
+      if (videoRef.current) {
+        videoRef.current.pause();
+      }
+    };
     return (
         <>
             <div className="CaseStudies-section">
                 <div className="CaseStudies-container">
                     <div className="CaseStudies-header">
                         <h1>Projects</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis asperiores at odio accusamus ex consequuntur delectus, aliquam explicabo ipsum, modi, cupiditate non perspiciatis nulla ea laboriosam id aperiam nostrum nam?</p>
+                        <p>In two impactful years at school 1337, I immersed myself in diverse projects and languages. From developing Projects in C to mastering C++, , Html, CSS, JS, TS, React, Next.js, Nest.js, and Docker, I honed my coding and problem-solving skills. Beyond languages, collaborative projects nurtured effective teamwork, issue resolution, and timely deliveries. This tech journey defined my transformative learning experience.</p>
                     </div>
                     <div className="CaseStudies-project1" id="CaseStudies-project-first">
                         <div className="CaseStudies-project1-left">
@@ -18,18 +31,23 @@ export default function CaseStudies(){
                             </div>
                             <div className="CaseStudies-project1-information">
                                 <h2>FT_IRC</h2>
-                                <p>Designed and implemented an Internet Relay Chat (IRC) server using C++ language, socket programming. And Developed skills in problem-solving, critical thinking, and communication through peer reviews and code debugging sessions.</p>
+                                <p>Designed and implemented an Internet Relay Chat (IRC) server using C++ language, socket programming. Create clients and channels and let them to connect to each other</p>
                             </div>
-                            <a href="https://github.com/iel-bakk/42-FT_IRC" target="_blank">View case study</a>
+                            <a href="https://github.com/iel-bakk/42-FT_IRC" target="_blank">View in github</a>
                         </div>
                         <div className="CaseStudies-project1-right">
-                            <img src="limechat.png"></img>
+                            <video>
+                                <img src="limechat.png"></img>
+                            </video>
                         </div>
                     </div>
                     {/* project 2 */}
                     <div className="CaseStudies-project1" id="CaseStudies-different">
                         <div className="CaseStudies-project1-right">
-                            <img src="cub3d.png"></img>
+                            {/* <img src="cub3d.png"></img> */}
+                            <video ref={videoRef} controls loop muted autoPlay>
+                                <source src="cub3d.mp4" type="video/mp4" />
+                            </video>
                         </div>
                         <div className="CaseStudies-project1-left" id="CaseStudies-different-right">
                         <div className="CaseStudies-lang">
@@ -39,9 +57,9 @@ export default function CaseStudies(){
                         </div>
                         <div className="CaseStudies-project1-information">
                             <h2>Cub3D</h2>
-                            <p>This project involved creating a 3D game using the C programming language and the raycasting technique. Through this experience, I gained a deep understanding of graphics programming, including concepts like textures, floor and ceiling rendering, and player movement. The project not only honed my coding skills but also fostered problem-solving abilities as I tackled complex challenges in creating a visually engaging and interactive game. Cub3D not only expanded my technical proficiency but also instilled a passion for graphics programming and game development."</p>
+                            <p>This project involved creating a 3D game using the C programming language and the raycasting technique. Through this experience, I gained a deep understanding of graphics programming, including concepts like textures, floor and ceiling rendering, and player movement. The project not only honed my coding skills but also fostered problem-solving abilities as I tackled complex challenges in creating a visually engaging and interactive game."</p>
                         </div>
-                            <a href="https://github.com/DakhchOussama/Cub3d" target="_blank" id="btn-cub">View case study</a>
+                            <a href="https://github.com/DakhchOussama/Cub3d" target="_blank" id="btn-cub">View in github</a>
                         </div>
                     </div>
                     {/* project 3 */}
@@ -59,12 +77,14 @@ export default function CaseStudies(){
                         </div>
                             <div className="CaseStudies-project1-information">
                                 <h2>Ft_Transcendence</h2>
-                                <p>Developed a comprehensive Dashboard with front-end and back-end components, featuring user registration, login, profile pages, chat functionality, and an interactive game space. Collaborated with a team of peers to manage project tasks, resolve issues, and ensure timely project completion</p>
+                                <p>Developed a ping pong game with front-end and back-end frameworks, integrating user registration, login, and chat features, along with an interactive game space. Personally contributed to the project by designing the UI for the project and working on profile pages, user addition, and specific front-end pages within the chat functionality.</p>
                             </div>
-                            <a href="https://github.com/soufiane-amt/ft_transcendance" target="_blank" id="btn-tran" >View case study</a>
+                            <a href="https://github.com/soufiane-amt/ft_transcendance" target="_blank" id="btn-tran" >View in github</a>
                         </div>
                         <div className="CaseStudies-project1-right">
+                            <video>
                             <img src="ft_transcendance.png" id="trans-image"></img>
+                            </video>
                         </div>
                     </div>
                 </div>
