@@ -1,6 +1,33 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 export default function GetInTouc(){
+    const [email, setEmail] = useState('');
+    const [mobile, setMobile] = useState('');
+    const [message, setMessage] = useState('');
+
+    const handleclick = async (event : any) => {
+        event.preventDefault();
+
+        try{
+            const response = await fetch('./api/Contact', {
+                method: 'POST',
+                headers: {
+                    'Content-type': 'application/json',
+                },
+                body: JSON.stringify({email, mobile, message})
+            });
+
+            if (response.ok){
+                console.log('Email was send');
+            }
+            else{
+                console.log('notting send');
+            }
+        }catch(error){
+            console.log('Error: ', error);
+        }
+    };
     return (
         <>
             <div className="education" id="GetInTouc">
@@ -12,26 +39,28 @@ export default function GetInTouc(){
                     <div className="GetInTouc-container">
                         <div className="GetInTouc-input">
                             <label htmlFor="mail">Email</label>
-                            <input type="email" placeholder="Please enter your email" id="mail"></input>
+                            <input type="email" placeholder="Please enter your email" id="mail" value={email} onChange={(e) => {setEmail(e.target.value)}} required></input>
                         </div>
                         <div className="GetInTouc-input">
                             <label htmlFor="mobilr">Mobile</label>
-                            <input type="text" placeholder="Enter mobile" id="mobile"></input>
+                            <input type="text" placeholder="Enter mobile" id="mobile" value={mobile} onChange={(e) => {setMobile(e.target.value)}} required></input>
                         </div>
                         <div className="GetInTouc-input" id="GetInTouc-message">
                             <label htmlFor="message">Message</label>
-                            <textarea placeholder="Message" id="message"></textarea>
+                            <textarea placeholder="Message" id="message" value={message} onChange={(e) => {setMessage(e.target.value)}} required></textarea>
                         </div>
                         <div className="GetInTouc-buttom">
                             <div className="identification-center-buttom">
-                                <a className="button-link" data-text="Submit" id="GetInTouc-a">
-                                <span>T</span>
-                                <span>h</span>
-                                <span>a</span>
-                                <span>n</span>
-                                <span>k</span>
-                                <span>s</span>
-                                </a>
+                                <form>
+                                    <a className="button-link" data-text="Submit" id="GetInTouc-a" onClick={handleclick}>
+                                    <span>T</span>
+                                    <span>h</span>
+                                    <span>a</span>
+                                    <span>n</span>
+                                    <span>k</span>
+                                    <span>s</span>
+                                    </a>
+                                </form>
                             </div>
                         </div>
                     </div>
