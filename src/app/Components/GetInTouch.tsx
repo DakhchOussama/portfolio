@@ -10,7 +10,7 @@ export default function GetInTouc(){
         event.preventDefault();
 
         try{
-            const response = await fetch('./api/Contact', {
+            const response = await fetch('/api/router', {
                 method: 'POST',
                 headers: {
                     'Content-type': 'application/json',
@@ -18,11 +18,13 @@ export default function GetInTouc(){
                 body: JSON.stringify({email, mobile, message})
             });
 
+            console.log('API response:', response);
+
             if (response.ok){
                 console.log('Email was send');
             }
             else{
-                console.log('notting send');
+                console.log('Failed to send email');
             }
         }catch(error){
             console.log('Error: ', error);

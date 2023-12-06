@@ -751,13 +751,13 @@ nav{
 }
 
 .GetInTouc-container {
-  width: 35cm;
+  width: 33cm;
   height: 21cm;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 106px;  
+  margin-left: 106px;
 }
 
 .GetInTouc-input {
