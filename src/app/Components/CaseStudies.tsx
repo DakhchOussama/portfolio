@@ -34,7 +34,7 @@ export default function CaseStudies(){
                     <div className="CaseStudies-project1" id="CaseStudies-different">
                         <div className="CaseStudies-project1-right">
                             <video loop muted autoPlay width="640" height="360">
-                                <source src="cub3d.mp4" type="video/mp4" />
+                                <source src="mycub3d.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>

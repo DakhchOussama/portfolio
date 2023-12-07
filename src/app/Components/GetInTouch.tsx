@@ -10,7 +10,7 @@ export default function GetInTouc(){
         event.preventDefault();
 
         try{
-            const response = await fetch('/api/router', {
+            const response = await fetch('/api/Contact', {
                 method: 'POST',
                 headers: {
                     'Content-type': 'application/json',

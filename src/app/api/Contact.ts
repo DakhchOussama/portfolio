@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-export default async function Contact(req: any, res: any){
+export default async function POST(req: any, res: any){
     if (req.method === 'POST')
     {
         const {email, mobile, message} = req.body;
