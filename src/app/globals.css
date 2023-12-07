@@ -239,8 +239,8 @@ nav{
   align-items: center;
 }
 
-.button-link{
-
+p#eco-para {
+  margin-bottom: 12px;
 }
 
 .CaseStudies-section {
@@ -500,7 +500,7 @@ nav{
 }
 
 .feedbacks-header p {
-  width: 40%;
+  width: 18cm;
   color: #9C9C9C;
   font-family: 'Nova Square', sans-serif;
   font-size: 15px;
@@ -957,7 +957,9 @@ nav{
   .education-img img {
     width: 277px;
     height: 318px;
-}
+  }
+
+
 }
 
 @media screen and (max-width: 796px) {
@@ -1067,21 +1069,31 @@ nav{
     border-radius: 13px;
   }
   .education-para h2 {
-    font-size: 15px;
+    font-size: 13px;
 }
-  .education-para p {
-    width: 77%;
-    font-size: 12px;
+
+.education-para br{
+  display: none;
+}
+.education-para p {
+  width: 85%;
+  font-size: 10px;
+  margin-left: 27px;
 }
   .education-para {
     margin-top: 18px;
     height: calc(4cm + 23px);
 }
-  .education-para a {
-    height: 39px;
-    width: 147px;
-    font-size: 12.5px;
-    justify-content: space-around;
+.education-para a {
+  height: 30px;
+  width: 130px;
+  font-size: 12.5px;
+  justify-content: space-around;
+}
+#school-para {
+  width: 85%;
+  font-size: 10.5px;
+  margin-bottom: 12px;
 }
  .education-section {
     width: calc(14cm - 123px);
@@ -1091,9 +1103,9 @@ nav{
     height: 33px;
   }
   .education-header p {
-    width: 11cm;
-    font-size: 12px;
-  }
+    width: 12cm;
+    font-size: 11px;
+}
   .education-header h1 {
     font-size: 28px;
   }
@@ -1298,7 +1310,7 @@ nav{
   }
   .GetInTouc-input label {
     font-size: 15px;
-}
+  }
 }
 
 @media screen and (max-width: 426px) {
@@ -1322,7 +1334,7 @@ nav{
     height: 38%;
   }
   #CaseStudies-project-first {
-    height: 33%;
+    height: 26%;
   }
   .CaseStudies-project1-right video{
     margin-top: 22px;
@@ -1353,9 +1365,9 @@ nav{
   #GetInTouc {
     height: calc(21cm + 12px);
 }
-  .education-section {
-      width: calc(11cm - 137px);
-  }
+.education-section {
+  width: calc(11cm - 134px);
+}
  .education-information {
     width: 6cm;
   }
@@ -1364,8 +1376,9 @@ nav{
     height: 205px;
 }
 .education-para p {
-    width: 85%;
-    font-size: 10px;
+  width: 94%;
+  font-size: 9px;
+  margin: 0;
 }
 .education-para a {
     height: 34px;
@@ -1373,5 +1386,28 @@ nav{
 }
 .education-para h2 {
     font-size: 12px;
+}
+.education-header p {
+  width: 6cm;
+  font-size: 8px;
+}
+#school-para {
+  width: 100%;
+  font-size: 9px;
+  margin-bottom: 12px;
+  }
+  .navbar-parent-right a img {
+    width: 16px;
+    height: 16px;
+}
+.CaseStudies-project1 {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  height: 26%;
+}
+.identification-center-buttom a {
+  width: calc(6cm - 27px);
+  height: 32px;
 }
 }

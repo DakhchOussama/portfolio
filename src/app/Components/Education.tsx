@@ -39,8 +39,7 @@ export default function Education(){
             </div>
             <div className="education-para">
                 <h2>Université Hassan II of Casablanca</h2>
-                <p>
-After my baccalaureate, I initially chose to study economics at Université Hassan II of Casablanca without a clear direction. However, upon entering this field, I realized it wasn't the right fit for me. Despite this, the experience provided valuable knowledge, particularly in teamwork and probability, which I continue to apply in my current educational and professional endeavors.</p>
+                <p id="eco-para">After my baccalaureate, I initially chose to study economics at Université Hassan II of Casablanca without a clear direction. However, upon entering this field, I realized it wasn't the right fit for me. Despite this, the experience provided valuable knowledge, particularly in teamwork and probability, which I continue to apply in my current educational and professional endeavors.</p>
                 <a href="https://www.univh2c.ma/" target="_blank">Know more</a>
             </div>
         </div>
