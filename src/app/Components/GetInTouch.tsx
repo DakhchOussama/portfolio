@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import toast, { Toaster } from 'react-hot-toast';
 
 export default function GetInTouc(){
     const [email, setEmail] = useState('');
@@ -18,13 +19,11 @@ export default function GetInTouc(){
                 body: JSON.stringify({email, mobile, message})
             });
 
-            console.log('API response:', response);
-
             if (response.ok){
-                console.log('Email was send');
+                toast.success('Successfully toasted!')
             }
             else{
-                console.log('Failed to send email');
+                toast.error("This didn't work.")
             }
         }catch(error){
             console.log('Error: ', error);
@@ -32,6 +31,7 @@ export default function GetInTouc(){
     };
     return (
         <>
+            <Toaster  position="top-center"  reverseOrder={false}/>
             <div className="education" id="GetInTouc">
                 <div className="education-container">
                     <div className="education-header">

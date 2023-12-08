@@ -13,7 +13,8 @@ interface dataDto {
 export async function POST(req: Request, res: any){
         if (req.method === 'POST')
         {
-          console.log('Im here : ', process.env);
+            const EMAIL_USER = process.env;
+          console.log('Im here : ', EMAIL_USER);
         //   console.log('Im here : ', process.env);
           const rawData: any = await req.json();
           const data: dataDto = {
@@ -26,12 +27,12 @@ export async function POST(req: Request, res: any){
             const Transport = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: "oussamadakhch1999@gmail.com",
-                    pass: "xidm zghy dihh hyhh",
+                    user: process.env.NEXT_PUBLIC_EMAIL_USER,
+                    pass: process.env.NEXT_PUBLIC_EMAIL_PASSWORD,
                 },
             });
             const mailOptions = {
-                from: "oussamadakhch1999@gmail.com",
+                from: process.env.NEXT_PUBLIC_EMAIL_USER,
                 to: 'portfolio-email@example.com',
                 subject: 'Get In Touch',
                 text: `Email: ${email}\n Mobile: ${mobile} Message: ${message}`,
