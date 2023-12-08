@@ -2,7 +2,11 @@
 import Link from "next/link";
 import React from "react";
 
-export default function NavBar()
+interface NavProps {
+    onSelectSection: (section: string) => void;
+  }
+
+const NavBar: React.FC<NavProps> = ({onSelectSection}) =>
 {
     return (
         <>
@@ -10,11 +14,11 @@ export default function NavBar()
                 <div className="navbar-back">
                     <div className="navbar-parent">
                         <div className="navbar-parent-left">
-                            <a>Home</a>
-                            <a>Projects</a>
-                            <a>Feedbacks</a>
-                            <a>Education</a>
-                            <a>Get In Touch</a>
+                            <a onClick={() => onSelectSection("home")}>Home</a>
+                            <a onClick={() => onSelectSection("projects")}>Projects</a>
+                            <a onClick={() => onSelectSection("feedbacks")}>Feedbacks</a>
+                            <a onClick={() => onSelectSection("education")}>Education</a>
+                            <a onClick={() => onSelectSection("getintouch")}>Get In Touch</a>
                         </div>
                         <div className="navbar-parent-right">
                             <a target="_blank" href="https://www.facebook.com/profile.php?id=100004990874791"><img src="facebook.png" alt="facebook" width="35" height="35"/></a>
@@ -26,4 +30,6 @@ export default function NavBar()
             </nav>
         </>
     );
-}
+};
+
+export default NavBar;
