@@ -1000,13 +1000,13 @@ p#eco-para {
     align-items: center;
     justify-content: center;
   }
-  .identification-center-buttom {
-    /* background-color: red; */
-    height: 100px;
+ .identification-center-buttom {
+    height: 73px;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 86%;
     justify-content: center;
+    margin-left: 42px;
 }
   .CaseStudies-project1-information p{
     font-size: 12px;
@@ -1164,9 +1164,9 @@ p#eco-para {
   .education {
     height: 22cm;
 }
-  .CaseStudies-project1-left{
-    width: 52%;
-  }
+  .CaseStudies-project1-left {
+    width: 70%;
+}
   .feedbacks-msg p{
       font-size: 10px;
   }
@@ -1210,6 +1210,9 @@ p#eco-para {
   .CaseStudies-project1-right video {
     height: 73%;
     margin-top: 0;
+  }
+  .CaseStudies-project1-left a{
+    font-size: 12px;
   }
 
   .CaseStudies-project1 {
@@ -1258,6 +1261,7 @@ p#eco-para {
 }
 .CaseStudies-project1-right {
   height: 50%;
+  width: 70%;
 }
 .feedbacks-container{
   width: 84%;
@@ -1269,11 +1273,19 @@ p#eco-para {
   width: 30px;
   height: 30px;
 }
-.feedbacks-header p{
-  font-size: 11px;
+.feedbacks-header p {
+    font-size: 9px;
+    width: 89%;
 }
-.CaseStudies-project1-left a{
-  width: 95%;
+.CaseStudies-project1-left a {
+    width: 73%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.CaseStudies-project1-left img {
+    width: 17px;
+    height: 14px;
 }
 /* .quote{
   top: calc(214vh + 3px);
@@ -1293,9 +1305,9 @@ p#eco-para {
 .CaseStudies-lang{
   margin-bottom: 0;
 }
-.CaseStudies-header{
+.CaseStudies-header {
   margin-bottom: 0;
-  height: 7%;
+  height: 9%;
 }
 #html, #css, #js, #react, #ts, #next, #nest, #docker, #c{
   margin-right: 5px;
@@ -1317,16 +1329,19 @@ p#eco-para {
   .identification-center-name{
     width: 100%;
   }
-  .CaseStudies-project1-information p{
-    font-size: 7px;
-  }
+  .CaseStudies-project1-information p {
+    font-size: 8px;
+}
   .CaseStudies-header h1 {
     font-size: 16px;
   }
-  .CaseStudies-header p {
-    font-size: 7px;
-    width: 94%;
-  }
+ .CaseStudies-header h1 {
+    font-size: 22px;
+}
+.CaseStudies-header p {
+    font-size: 8px;
+    width: 80%;
+}
   #html, #css, #js, #react, #ts, #next, #nest, #docker, #c{
     margin-right: 4px;
   }
@@ -1409,5 +1424,16 @@ p#eco-para {
 .identification-center-buttom a {
   width: calc(6cm - 27px);
   height: 32px;
+}
+#GetInTouc-a::before {
+    right: -18px;
+    left: 22px;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.GetInTouc-buttom {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
 }
 }
