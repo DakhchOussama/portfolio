@@ -881,13 +881,15 @@ p#eco-para {
   .quote{
     /* left: 17%; */
   }
-  #left-bottom,
-  #left-top {
+  #left-bottom{
     top: 0px;
   }
   .container-quote{
-    bottom: 106px;
+    bottom: 96px;
   }
+  #left-top {
+    top: 7px;
+}
   #right-bottom {
     top: -10px;
   }
@@ -942,8 +944,11 @@ p#eco-para {
   .feedbacks-msg{
     margin-left: 30px;
   }
-  .container-quote{
-    bottom: 45px;
+  .container-quote {
+    bottom: 68px;
+  }
+  .feedbacks-msg p{
+    font-size: 14px;
   }
   .education-information{
       width: 9cm;
@@ -1167,12 +1172,14 @@ p#eco-para {
   .CaseStudies-project1-left {
     width: 70%;
 }
-  .feedbacks-msg p{
-      font-size: 10px;
+.feedbacks-msg p,
+#abberkac-feedback{
+    font-size: 9px;
+    width: 87%;
   }
-  #abberkac-feedback{
-    font-size: 10px;
-  }
+  .feedbacks-msg {
+    margin-left: 40px;
+}
   .navbar-parent-left a{
     font-size: 25%;
   }
@@ -1227,9 +1234,6 @@ p#eco-para {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
-.education-section{
-  
-}
 .feedbacks-poeple{
   justify-content: center;
 }
@@ -1238,7 +1242,7 @@ p#eco-para {
   height: 17px;
 }
 .container-quote {
-  bottom: 22px;
+  bottom: 28px;
 }
 #left-top {
   top: -3px;
@@ -1267,7 +1271,7 @@ p#eco-para {
   width: 84%;
 }
 .feedbacks-identif h2{
-  font-size: 11px;
+  font-size: 10px;
 }
 .feedbacks-identif img{
   width: 30px;
@@ -1435,5 +1439,27 @@ p#eco-para {
     margin-left: 0;
     width: 100%;
     height: auto;
+  }
+  .feedbacks-poeple {
+    justify-content: center;
+    margin-left: 0;
+}
+.feedbacks-msg p{
+  font-size: 9px;
+}
+#abberkac-feedback{
+  font-size: 8px;
+}
+.identification-center-buttom {
+  height: 63px;
+  width: 100%;
+  margin-left: 0;
+}
+.button-link::before {
+  left: 39px;
+  font-size: 11px;
+}
+.CaseStudies-project1-right {
+  height: 38%;
 }
 }
