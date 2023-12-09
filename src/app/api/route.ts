@@ -13,7 +13,7 @@ interface dataDto {
 export async function POST(req: Request, res: any){
         if (req.method === 'POST')
         {
-            const EMAIL_USER = process.env;
+            const EMAIL_USER = await process.env.EMAIL_USER;
           console.log('Im here : ', EMAIL_USER);
         //   console.log('Im here : ', process.env);
           const rawData: any = await req.json();

@@ -8,25 +8,56 @@ export default function GetInTouc(){
     const [message, setMessage] = useState('');
 
     const handleclick = async (event : any) => {
+        
+        const checkemail = (input : string) => {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            return emailRegex.test(input);
+        };
+
         event.preventDefault();
 
-        try{
-            const response = await fetch('/api', {
-                method: 'POST',
-                headers: {
-                    'Content-type': 'application/json',
+        if (((!email || !mobile) || !message) && ((!email || !mobile) || message))
+        {
+            toast.success('Warning: The required information is missing. Please provide the necessary details to proceed', {
+                style: {
+                  border: '1px solid #23a6dd',
+                  padding: '16px',
+                  color: '#00000',
                 },
-                body: JSON.stringify({email, mobile, message})
-            });
-
-            if (response.ok){
-                toast.success('Successfully toasted!')
+                iconTheme: {
+                  primary: '#23a6dd',
+                  secondary: '#FFFAEE',
+                },
+              });
+        }
+        else
+        {
+            if (!checkemail(email))
+            {
+                toast.error("Please enter a valid email address");
             }
-            else{
-                toast.error("This didn't work.")
+            else
+            {
+                try{
+                    const response = await fetch('/api', {
+                        method: 'POST',
+                        headers: {
+                            'Content-type': 'application/json',
+                        },
+                        body: JSON.stringify({email, mobile, message})
+                    });
+        
+                    if (response.ok){
+                        toast.success('Successfully toasted!');
+                    }
+                    else{
+                        toast.error("This didn't work.");
+                    }
+                }catch(error){
+                    console.log('Error: ', error);
+                }
             }
-        }catch(error){
-            console.log('Error: ', error);
         }
     };
     return (
