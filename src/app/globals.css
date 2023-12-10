@@ -59,8 +59,7 @@ body{
 }
 
 .angledoub:hover{
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7); /* Add a shadow */
-
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
 }
 
 nav{
@@ -170,7 +169,6 @@ nav{
   height: 80%;
   display: flex;
   align-items: center;
-  /* background-color: red; */
 }
 
 .identification-center-photo img{
@@ -278,7 +276,6 @@ nav{
   background-color: #23a6dd;
   width: 6cm;
   height: 58px;
-  /* color: white; */
   display: flex;
   align-items: center;
 }
@@ -298,7 +295,6 @@ p#eco-para {
 .CaseStudies-container{
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   width: 68%;
 }
 
@@ -308,7 +304,6 @@ p#eco-para {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 25px; */
   margin-bottom: 15px;
   justify-content: center;
 }
@@ -329,7 +324,6 @@ p#eco-para {
 }
 
 .CaseStudies-project1{
-  /* background-color: red; */
   height: 31%;
   width: 100%;
   display: flex;
@@ -340,11 +334,7 @@ p#eco-para {
   height: 25%;
 }
 
-#CaseStudies-different-right{
-}
-
 .CaseStudies-project1-left{
-  /* background-color: blue; */
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -501,7 +491,6 @@ p#eco-para {
 }
 
 #CaseStudies-different{
-  /* background-color: red; */
   height: 33%;
 }
 
@@ -564,11 +553,14 @@ p#eco-para {
 	border: 0.7px solid #ffffff57;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-end;
 	margin-bottom: 20px;
 	margin-left: 20px;
-  /* height: 80%; */
   border-radius: 19px;
+}
+
+.feedbacks-msg-container {
+  height: 68%;
 }
 
 .feedbacks-msg {
@@ -616,29 +608,11 @@ p#eco-para {
   left: 21px;
 }
 
-#another-quote{
-
-}
-
-#left-top{
-    top: 9px;  
-}
-
-#right-bottom{
-}
-
-#left-bottom{
-}
-
 .education{
   background-color: white;
   display: flex;
   justify-content: center;
   height: 30cm;
-}
-
-#test{
-
 }
 
 .education-container {
@@ -903,7 +877,6 @@ p#eco-para {
 @media screen and (max-width: 1603px)  {
   .CaseStudies-project1-information p{
     font-size: 13px;
-    /* background-color: red; */
   }
   .CaseStudies-header p {
     font-size: 10px;
@@ -924,24 +897,6 @@ p#eco-para {
   .feedbacks-container{
     width: 72%;
   }
-  .quote{
-    /* left: 17%; */
-  }
-  #left-bottom{
-    top: 0px;
-  }
-  .container-quote{
-    bottom: 96px;
-  }
-  #left-top {
-    top: 7px;
-}
-  #right-bottom {
-    top: -10px;
-  }
-  /* .GetInTouc-input input, .GetInTouc-input textarea{
-  width: 100%;
-  } */
 }
 
 @media screen and (max-width: 1236px) {
@@ -969,21 +924,11 @@ p#eco-para {
   .feedbacks-section{
     height: 58%;
   }
-  /* #right-bottom,
-  #left-top{
-    top: calc(271vh + 3px);
-  } */
-  #left-bottom{
-    top: -10px;
-  }
-  #left-top{
-      top: 9px;
-  }
   .feedbacks-msg{
     margin-left: 30px;
   }
   .container-quote {
-    bottom: 68px;
+    bottom: 94px;
   }
   .feedbacks-msg p{
     font-size: 14px;
@@ -1075,11 +1020,18 @@ p#eco-para {
   #html p, #css p, #js p, #react p, #ts p, #next p, #nest p, #docker p, #c p{
     font-size: 10px;
   }
+  .container-quote {
+    bottom: 63px;
+}
   .feedbacks-msg{
     margin-left: 15px;
   }
   .feedbacks-identif{
     margin-left: 14px;
+    margin-top: 26px;
+  }
+  .feedbacks-msg-container {
+    height: 79%;
   }
   #abberkac-feedback{
     font-size: 13px;
@@ -1089,7 +1041,8 @@ p#eco-para {
   }
   .feedbacks-header p {
     width: 100%;
-  }
+    font-size: 13px;
+}
   .identification-center-photo img {
     width: 200px;
     height: 200px;
@@ -1155,7 +1108,9 @@ p#eco-para {
   }
   .GetInTouc-buttom {
     margin-right: 0;
-  }
+    height: 10%;
+}
+
   .submit-button {
     height: 48px;
     width: 188px;
@@ -1167,7 +1122,7 @@ p#eco-para {
   margin-left: 0;
 }
 .education-container {
-  height: 100%;
+  height: 88%;
   width: 74%;
 }
 .GetInTouc-container {
@@ -1177,9 +1132,6 @@ p#eco-para {
 }
 
 @media screen and (max-width: 585px){
-  /* .container-quote{
-    right: calc(3cm + 25px);
-  } */
   .education-img img {
     width: 227px;
     height: 246px;
@@ -1207,11 +1159,10 @@ p#eco-para {
   .CaseStudies-project1-left {
     width: 70%;
 }
-.feedbacks-msg p,
-#abberkac-feedback{
-    font-size: 9px;
-    width: 87%;
-  }
+.feedbacks-msg p, #abberkac-feedback {
+  font-size: 10px;
+  width: 87%;
+}
   .feedbacks-msg {
     margin-left: 40px;
 }
@@ -1277,16 +1228,18 @@ p#eco-para {
   height: 17px;
 }
 .container-quote {
-  bottom: 28px;
+  bottom: 29px;
 }
-#left-top {
-  top: -3px;
+.feedbacks-msg-container {
+  height: 62%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-#another-quote {
-  top: -10px;
-}
-.feedbacks-identif{
-  margin-top: 14px;
+.feedbacks-identif {
+  margin-top: 13px;
+  width: 87%;
 }
 #CaseStudies-different {
   flex-direction: column;
@@ -1326,21 +1279,6 @@ p#eco-para {
     width: 17px;
     height: 14px;
 }
-/* .quote{
-  top: calc(214vh + 3px);
-}
-#right-bottom,#left-top{
-  top: calc(237vh + 3px);
-}
-#right-bottom{
-  left: 16%;
-}
-.quote{
-  left: 16%;
-}
-#left-bottom, #left-top{
-  left: 58%;
-} */
 .CaseStudies-lang{
   margin-bottom: 0;
 }
@@ -1494,5 +1432,8 @@ p#eco-para {
 .angledoub{
   width: 26px;
   height: 26px;
+}
+.button-link span{
+  right: 62px;
 }
 }

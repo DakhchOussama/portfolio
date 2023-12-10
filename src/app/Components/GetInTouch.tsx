@@ -8,7 +8,6 @@ export default function GetInTouc(){
     const [message, setMessage] = useState('');
 
     const handleclick = async (event : any) => {
-        
         const checkemail = (input : string) => {
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
