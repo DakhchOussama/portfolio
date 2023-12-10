@@ -116,6 +116,10 @@ nav{
   opacity: 0.9;
 }
 
+.navbar-parent-right img:hover {
+  box-shadow: 0px 0px 8px 0px #23a6dd;
+}
+
 .identication {
   height: calc(33cm - 126px);
   display: flex;
@@ -175,11 +179,10 @@ nav{
   height: 330px;
 }
 
-.identification-center-buttom{
-  /* background-color: red; */
-  height: 100px;
+.identification-center-buttom {
   display: flex;
   align-items: center;
+  height: 10%;
 }
 
 .CaseStudies-project1-left img {
@@ -783,7 +786,7 @@ p#eco-para {
 
 #GetInTouc {
   background-color: black;
-  height: calc(26cm + 12px);
+  height: calc(27cm + 12px);
 }
 
 #GetInTouc-header{
@@ -791,22 +794,21 @@ p#eco-para {
 }
 
 .GetInTouc-container {
-  width: 33cm;
+  width: 20cm;
   height: 21cm;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 106px;
 }
 
 .GetInTouc-input {
-  width: 60%;
+  width: 90%;
   height: 21%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* background-color: blue; */
+  margin-left: 10%;
 }
 
 #GetInTouc-a{
@@ -838,13 +840,12 @@ p#eco-para {
 }
 
 .GetInTouc-buttom {
-  width: 41%;
+  width: 90%;
   height: 15%;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  margin-top: 20px;
-  margin-left: 2cm;
+  justify-content: center;
+  margin-right: calc(1cm + 23px);
 }
 
 .submit-button {
@@ -882,7 +883,7 @@ p#eco-para {
 
 #GetInTouc-a::before {
   right: -18px;
-  left: -11px;
+  left: -16px;
   font-size: 23px;
   letter-spacing: 1px;
 }
@@ -938,17 +939,9 @@ p#eco-para {
   #right-bottom {
     top: -10px;
   }
-  .GetInTouc-container {
-    width: 18cm;
-    align-items: flex-start;
-    margin-left: 0;
-  }
-  .GetInTouc-input input, .GetInTouc-input textarea{
+  /* .GetInTouc-input input, .GetInTouc-input textarea{
   width: 100%;
-  }
-  .GetInTouc-input {
-      width: 85%;
-  }
+  } */
 }
 
 @media screen and (max-width: 1236px) {
@@ -1051,12 +1044,7 @@ p#eco-para {
     justify-content: center;
   }
  .identification-center-buttom {
-    height: 73px;
-    display: flex;
-    align-items: center;
-    width: 86%;
-    justify-content: center;
-    margin-left: 42px;
+  justify-content: center;
 }
   .CaseStudies-project1-information p{
     font-size: 12px;
@@ -1098,7 +1086,7 @@ p#eco-para {
   }
   .education-information {
     width: 8cm;
-}
+  }
   .feedbacks-header p {
     width: 100%;
   }
@@ -1166,22 +1154,24 @@ p#eco-para {
       height: 160px;
   }
   .GetInTouc-buttom {
-    width: 31%;
-    height: 7%;
-    margin-left: 0;
+    margin-right: 0;
   }
   .submit-button {
     height: 48px;
     width: 188px;
   }
   .GetInTouc-input input, .GetInTouc-input textarea {
-    width: 95%;
+    width: 88%;
 }
-  .GetInTouc-container {
-    width: 13cm;
-    margin-right: 40px;
-    margin-left: 10px;
-    align-items: center;
+.GetInTouc-input{
+  margin-left: 0;
+}
+.education-container {
+  height: 100%;
+  width: 74%;
+}
+.GetInTouc-container {
+  width: 13cm;
 }
 
 }
@@ -1362,9 +1352,9 @@ p#eco-para {
   margin-right: 5px;
 }
 .GetInTouc-container {
-    width: 11cm;
-    height: 18cm;
-  }
+  width: 11cm;
+  height: 21cm;
+}
   .education-header p {
     width: 8cm;
     font-size: 11px;
@@ -1480,11 +1470,6 @@ p#eco-para {
     font-size: 19px;
     letter-spacing: 1px;
 }
-.GetInTouc-buttom {
-    margin-left: 0;
-    width: 100%;
-    height: auto;
-  }
   .feedbacks-poeple {
     justify-content: center;
     margin-left: 0;
@@ -1495,16 +1480,19 @@ p#eco-para {
 #abberkac-feedback{
   font-size: 8px;
 }
-.identification-center-buttom {
-  height: 63px;
-  width: 100%;
-  margin-left: 0;
-}
 .button-link::before {
   left: 39px;
   font-size: 11px;
 }
 .CaseStudies-project1-right {
   height: 38%;
+}
+.education-container {
+  height: 100%;
+  width: 74%;
+}
+.angledoub{
+  width: 26px;
+  height: 26px;
 }
 }

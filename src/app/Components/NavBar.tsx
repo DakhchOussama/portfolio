@@ -20,7 +20,7 @@ const NavBar: React.FC<NavBarProp> = ({onSelectSection}) =>
                               <a onClick={() => onSelectSection("getintouch")}>Get In Touch</a>
                           </div>
                           <div className="navbar-parent-right">
-                              <a target="_blank" href="https://www.facebook.com/profile.php?id=100004990874791"><img src="facebook.png" alt="facebook" width="35" height="35"/></a>
+                              <a target="_blank" href="https://twitter.com/DakhchO"><img src="twitter.png" alt="twitter" width="35" height="35"/></a>
                               <a target="_blank" href="https://github.com/DakhchOussama"><img src="github.png" alt="github" width="35" height="35"/></a>
                               <a target="_blank" href="https://www.linkedin.com/in/oussama-dakhch-608964257/"><img src="linkedin.png" alt="linkedin" width="35" height="35"/></a>
                           </div>

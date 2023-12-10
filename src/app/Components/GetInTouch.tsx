@@ -49,7 +49,7 @@ export default function GetInTouc(){
                     });
         
                     if (response.ok){
-                        toast.success('Successfully toasted!');
+                        toast.success('successfully completed.');
                     }
                     else{
                         toast.error("This didn't work.");
