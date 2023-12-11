@@ -25,15 +25,16 @@ export default function CaseStudies(){
                             <a href="https://github.com/iel-bakk/42-FT_IRC" target="_blank">View in github<img src="social.png" alt="photo"></img></a>
                         </div>
                         <div className="CaseStudies-project1-right">
-                            <video>
-                                <img src="limechat.png" alt="photo"></img>
+                            <video loop muted autoPlay id="irc-video">
+                                <source src="ircserver.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
                             </video>
                         </div>
                     </div>
                     {/* project 2 */}
                     <div className="CaseStudies-project1" id="CaseStudies-different">
                         <div className="CaseStudies-project1-right">
-                            <video loop muted autoPlay width="640" height="360">
+                            <video loop muted autoPlay>
                                 <source src="mycub3d.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
@@ -71,7 +72,7 @@ export default function CaseStudies(){
                             <a href="https://github.com/soufiane-amt/ft_transcendance" target="_blank" id="btn-tran" >View in github<img src="social.png" alt="photo"></img></a>
                         </div>
                         <div className="CaseStudies-project1-right">
-                            <video loop muted autoPlay width="640" height="360">
+                            <video loop muted autoPlay>
                                 <source src="pingpong.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>

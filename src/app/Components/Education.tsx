@@ -6,7 +6,7 @@ export default function Education(){
     const slides = [
         <div className="education-information" key="1">
             <div className="education-img">
-                <img src="ensa.png" alt="photo"></img>
+                <img src="ensanewlogo.png" alt="photo"></img>
             </div>
             <div className="education-para">
                 <h2>National School of Applied Sciences</h2>
@@ -26,7 +26,7 @@ export default function Education(){
         </div>,
         <div className="education-information" key="3">
             <div className="education-img">
-                <img src="New Project.png" alt="photo"></img>
+                <img src="sidibn.png" alt="photo"></img>
             </div>
             <div className="education-para">
                 <h2>École Supérieure de Technologie</h2>

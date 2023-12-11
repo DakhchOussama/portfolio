@@ -355,6 +355,11 @@ p#eco-para {
   border-radius: 9px;
 }
 
+#irc-video {
+  height: 92%;
+  width: 76%;
+}
+
 .CaseStudies-lang {
 	width: 61px;
 	height: 21px;
@@ -384,7 +389,7 @@ p#eco-para {
 
 .CaseStudies-project1-left a {
   background-color: #FFA217;
-  width: 33%;
+  width: 5cm;
   border: none;
   height: 40px;
   margin-top: 14px;
@@ -1270,7 +1275,6 @@ p#eco-para {
     width: 89%;
 }
 .CaseStudies-project1-left a {
-    width: 73%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1341,9 +1345,10 @@ p#eco-para {
     height: 33cm;
   }
   .CaseStudies-project1-right video {
-    height: 65%;
+    height: 100%;
     margin-top: 0;
-  }
+    width: 100%;
+}
   .GetInTouc-input input {
     height: 51px;
   }
@@ -1396,7 +1401,7 @@ p#eco-para {
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
-  height: 26%;
+  height: 38%;
 }
 .identification-center-buttom a {
   width: calc(6cm - 27px);
