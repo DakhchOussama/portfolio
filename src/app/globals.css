@@ -316,7 +316,7 @@ p#eco-para {
 }
 
 .CaseStudies-header p {
-  width: 34%;
+  width: 36%;
   color: #9C9C9C;
   font-family: 'Nova Square', sans-serif;
   font-size: 14px;
@@ -352,7 +352,6 @@ p#eco-para {
 .CaseStudies-project1-right video{
   width: 80%;
   height: 80%;
-  border-radius: 9px;
 }
 
 #irc-video {
@@ -884,8 +883,8 @@ p#eco-para {
     font-size: 13px;
   }
   .CaseStudies-header p {
-    font-size: 10px;
-    width: 33%;
+    font-size: 12px;
+    width: 46%;
 }
 
   .CaseStudies-container{
@@ -915,9 +914,23 @@ p#eco-para {
       font-size: 10px;
       width: 99%;
     }
+    .CaseStudies-header p {
+      font-size: 12px;
+      width: 69%;
+  }
     .CaseStudies-container{
       width: 98%;
     }
+    .identification-center {
+      width: 90%;
+  }
+  .identification-center-photo {
+    width: 37%;
+}
+.identification-center-photo img {
+    width: 260px;
+    height: 260px;
+}
 
 }
 
@@ -950,6 +963,9 @@ p#eco-para {
   .education-img img {
     width: 277px;
     height: 318px;
+  }
+  #irc-video{
+    width: 86%;
   }
 
 
@@ -1206,8 +1222,8 @@ p#eco-para {
   }
   .CaseStudies-header p {
     font-size: 10px;
-    width: 90%;
-  }
+    width: 76%;
+}
   .CaseStudies-project1-information h2 {
     font-size: 20px;
   }
@@ -1353,7 +1369,8 @@ p#eco-para {
     height: 41%;
 }
 .button-link:hover span, .button-link:focus span {
-  right: 55px;
+  right: 58px;
+  font-size: 21px;
 }
   #CaseStudies-project-first {
     height: 37%;
