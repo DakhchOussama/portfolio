@@ -1379,8 +1379,8 @@ p#eco-para {
     height: 51px;
   }
   .education-header {
-    height: 9%;
-  }
+    height: 13%;
+}
   .GetInTouc-container {
     width: 9cm;
     height: 18cm;
@@ -1412,7 +1412,7 @@ p#eco-para {
     font-size: 12px;
 }
 .education-header p {
-  width: 9cm;
+  width: calc(7cm + 25px);
   font-size: 9px;
 }
 #school-para {
