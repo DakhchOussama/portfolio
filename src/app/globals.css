@@ -1155,6 +1155,9 @@ p#eco-para {
     width: 8cm;
     margin: 0;
   }
+  #irc-video{
+    width: 92%;
+  }
   .education-section {
     width: calc(13cm - 123px);
   }
@@ -1326,11 +1329,11 @@ p#eco-para {
   #html, #css, #js, #react, #ts, #next, #nest, #docker, #c{
     margin-right: 4px;
   }
-  #CaseStudies-different{
-    height: 38%;
-  }
   #CaseStudies-project-first {
-    height: 26%;
+    height: 41%;
+}
+  #CaseStudies-project-first {
+    height: 37%;
   }
   .CaseStudies-project1-right video{
     margin-top: 22px;
@@ -1428,7 +1431,7 @@ p#eco-para {
   font-size: 11px;
 }
 .CaseStudies-project1-right {
-  height: 38%;
+  height: 42%;
 }
 .education-container {
   height: 100%;

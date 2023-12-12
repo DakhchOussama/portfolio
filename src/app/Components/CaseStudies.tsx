@@ -22,11 +22,11 @@ export default function CaseStudies(){
                                 <h2>FT_IRC</h2>
                                 <p>Designed and implemented an Internet Relay Chat (IRC) server using C++ language, socket programming. Create clients and channels and let them to connect to each other</p>
                             </div>
-                            <a href="https://github.com/iel-bakk/42-FT_IRC" target="_blank">View in github<img src="social.png" alt="photo"></img></a>
+                            <a href="https://github.com/iel-bakk/42-FT_IRC" target="_blank">View in github<img src="./social.png" alt="photo"></img></a>
                         </div>
                         <div className="CaseStudies-project1-right">
                             <video loop muted autoPlay id="irc-video">
-                                <source src="ircserver.mp4" type="video/mp4" />
+                                <source src="./ircserver.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -35,7 +35,7 @@ export default function CaseStudies(){
                     <div className="CaseStudies-project1" id="CaseStudies-different">
                         <div className="CaseStudies-project1-right">
                             <video loop muted autoPlay>
-                                <source src="mycub3d.mp4" type="video/mp4" />
+                                <source src="./mycub3d.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -49,7 +49,7 @@ export default function CaseStudies(){
                             <h2>Cub3D</h2>
                             <p>This project involved creating a 3D game using the C programming language and the raycasting technique. Through this experience, I gained a deep understanding of graphics programming, including concepts like textures, floor and ceiling rendering, and player movement. The project not only honed my coding skills but also fostered problem-solving abilities as I tackled complex challenges in creating a visually engaging and interactive game.</p>
                         </div>
-                            <a href="https://github.com/DakhchOussama/Cub3d" target="_blank" id="btn-cub">View in github<img src="social.png" alt="photo"></img></a>
+                            <a href="https://github.com/DakhchOussama/Cub3d" target="_blank" id="btn-cub">View in github<img src="./social.png" alt="photo"></img></a>
                         </div>
                     </div>
                     {/* project 3 */}
@@ -69,11 +69,11 @@ export default function CaseStudies(){
                                 <h2>Ft_Transcendence</h2>
                                 <p>Developed a ping pong game with front-end and back-end frameworks, integrating user registration, login, and chat features, along with an interactive game space. Personally contributed to the project by designing the UI for the project and working on profile pages, user addition, and specific front-end pages within the chat functionality.</p>
                             </div>
-                            <a href="https://github.com/soufiane-amt/ft_transcendance" target="_blank" id="btn-tran" >View in github<img src="social.png" alt="photo"></img></a>
+                            <a href="https://github.com/soufiane-amt/ft_transcendance" target="_blank" id="btn-tran" >View in github<img src="./social.png" alt="photo"></img></a>
                         </div>
                         <div className="CaseStudies-project1-right">
                             <video loop muted autoPlay>
-                                <source src="pingpong.mp4" type="video/mp4" />
+                                <source src="./pingpong.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
