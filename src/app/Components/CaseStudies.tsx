@@ -26,7 +26,7 @@ export default function CaseStudies(){
                         </div>
                         <div className="CaseStudies-project1-right">
                             <video loop muted autoPlay id="irc-video">
-                                <source src="./ircserver.mp4" type="video/mp4" />
+                                <source src="https://drive.google.com/uc?id=11FZRM1zgVm0Vfd1czQOPMc9TYnVPE6Uc" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -35,7 +35,7 @@ export default function CaseStudies(){
                     <div className="CaseStudies-project1" id="CaseStudies-different">
                         <div className="CaseStudies-project1-right">
                             <video loop muted autoPlay>
-                                <source src="./mycub3d.mp4" type="video/mp4" />
+                                <source src="https://drive.google.com/uc?id=1gzmvq8gXpFZhjA0fs9KOKfCyKevYSoEZ" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
@@ -73,7 +73,7 @@ export default function CaseStudies(){
                         </div>
                         <div className="CaseStudies-project1-right">
                             <video loop muted autoPlay>
-                                <source src="./pingpong.mp4" type="video/mp4" />
+                                <source src="https://drive.google.com/uc?id=1EAdg1QrOt5rekxXiWxJOaio2a8s8Oh9k" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
