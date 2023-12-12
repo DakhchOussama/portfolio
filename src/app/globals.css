@@ -962,6 +962,9 @@ p#eco-para {
   .navbar-parent-left a{
     font-size: 14px;
   }
+  #irc-video{
+    width: 92%;
+  }
   .navbar-parent-right a img{
     width: 30px;
     height: 30px;
@@ -1300,13 +1303,17 @@ p#eco-para {
   width: 11cm;
   height: 21cm;
 }
-  .education-header p {
-    width: 8cm;
-    font-size: 11px;
-  }
+.education-header p {
+  width: 11cm;
+  font-size: 10px;
+}
   .GetInTouc-input label {
     font-size: 15px;
   }
+  .button-link:hover span, .button-link:focus span {
+    font-size: 28px;
+    right: 86px;
+}
 }
 
 @media screen and (max-width: 426px) {
@@ -1316,11 +1323,24 @@ p#eco-para {
   .CaseStudies-project1-information p {
     font-size: 8px;
 }
+.feedbacks {
+  height: calc(20cm + 24px);
+}
+.feedbacks-section {
+  height: 66%;
+}
+.CaseStudies-header {
+  height: 12%;
+}
+.identication {
+  height: calc(28cm - 126px);
+}
+.education {
+  height: 20cm;
+}
   .CaseStudies-header h1 {
-    font-size: 16px;
-  }
- .CaseStudies-header h1 {
-    font-size: 22px;
+    font-size: 27px;
+    margin-right: 18px;
 }
 .CaseStudies-header p {
     font-size: 8px;
@@ -1331,6 +1351,9 @@ p#eco-para {
   }
   #CaseStudies-project-first {
     height: 41%;
+}
+.button-link:hover span, .button-link:focus span {
+  right: 55px;
 }
   #CaseStudies-project-first {
     height: 37%;
@@ -1367,6 +1390,7 @@ p#eco-para {
 }
 .education-section {
   width: calc(11cm - 134px);
+  height: 82%;
 }
  .education-information {
     width: 6cm;
@@ -1388,8 +1412,8 @@ p#eco-para {
     font-size: 12px;
 }
 .education-header p {
-  width: 6cm;
-  font-size: 8px;
+  width: 9cm;
+  font-size: 9px;
 }
 #school-para {
   width: 100%;
@@ -1405,6 +1429,9 @@ p#eco-para {
   align-items: center;
   justify-content: center;
   height: 38%;
+}
+.education-header h1 {
+  margin-right: 17px;
 }
 .identification-center-buttom a {
   width: calc(6cm - 27px);
