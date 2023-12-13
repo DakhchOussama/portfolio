@@ -53,7 +53,6 @@ export default function GetInTouc(){
                         toast.error("Code Exception Detected. Hold off sending");
                     }
                 }catch(error){
-                    console.log('Error: ', error);
                     toast.error('An error occurred during the fetch operation.');
                 }
             }

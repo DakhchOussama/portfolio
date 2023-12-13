@@ -14,10 +14,6 @@ interface dataDto {
 export async function POST(request: Request){
         if (request.method === 'POST')
         {
-            const mail = process.env.NEXT_PUBLIC_EMAIL_USER;
-            const password = process.env.NEXT_PUBLIC_EMAIL_PASSWORD;
-            console.log('Process 1 : ', mail);
-            console.log('Process 2 : ', password);
             try
             {
                 const rawData: any = await request.json();
@@ -63,7 +59,6 @@ export async function POST(request: Request){
         }
         catch(error)
         {
-            console.error('Error parsing JSON from request:', error);
             return NextResponse.json({ success: false, error: 'Error parsing JSON from request.' });
         }
             
