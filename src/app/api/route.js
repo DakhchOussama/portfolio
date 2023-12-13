@@ -5,21 +5,16 @@ export const dynamic = 'force-static';
 
 dotenv.config();
 
-interface dataDto {
-  "email": string,
-  "mobile": string,
-  "message": string
-}
 
-export async function POST(request: Request){
+export async function POST(request){
         if (request.method === 'POST')
         {
             try
             {
-                const rawData: any = await request.json();
+                const rawData = await request.json();
                 if (rawData)
                 {
-                    const data: dataDto = {
+                    const data = {
                         email: rawData.email,
                         mobile: rawData.mobile,
                         message: rawData.message,
