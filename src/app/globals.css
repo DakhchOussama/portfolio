@@ -998,7 +998,11 @@ p#eco-para {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    height: 19cm;
+    height: 17cm;
+}
+.identication {
+  height: calc(25cm - 126px);
+
 }
   .identification-center-buttom button{
     width: 60%;
