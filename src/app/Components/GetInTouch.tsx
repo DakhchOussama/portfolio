@@ -1,9 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import toast, { Toaster } from 'react-hot-toast';
-import type { NextApiRequest, NextApiResponse } from 'next';
 
-export default function GetInTouc(request: NextApiRequest, response: NextApiResponse<{}>){
+export default function GetInTouc(){
     const [email, setEmail] = useState('');
     const [mobile, setMobile] = useState('');
     const [message, setMessage] = useState('');
