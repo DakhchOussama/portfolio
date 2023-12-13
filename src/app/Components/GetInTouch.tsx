@@ -1,8 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import toast, { Toaster } from 'react-hot-toast';
+import type { NextApiRequest, NextApiResponse } from 'next';
 
-export default function GetInTouc(){
+export default function GetInTouc(request: NextApiRequest, response: NextApiResponse<{}>){
     const [email, setEmail] = useState('');
     const [mobile, setMobile] = useState('');
     const [message, setMessage] = useState('');
@@ -38,14 +39,13 @@ export default function GetInTouc(){
             else
             {
                 try{
-                    const response = await fetch('https://dakhchoussama.me/api', {
+                    const response = await fetch('http://dakhchoussama.me/api', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
                         },
                         body: JSON.stringify({email, mobile, message})
                     });
-        
                     if (response.ok){
                         toast.success('successfully completed.');
                     }
@@ -53,7 +53,7 @@ export default function GetInTouc(){
                         toast.error("Code Exception Detected. Hold off sending");
                     }
                 }catch(error){
-                    toast.error('An error occurred during the fetch operation.');
+                    toast.error(`An error occurred during the fetch operation. ${error}`);
                 }
             }
         }
