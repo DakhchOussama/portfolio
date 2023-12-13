@@ -38,7 +38,7 @@ export default function GetInTouc(){
             else
             {
                 try{
-                    const response = await fetch('/api', {
+                    const response = await fetch('https://dakhchoussama.me/api', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
