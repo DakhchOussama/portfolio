@@ -8,13 +8,12 @@ export default function GetInTouc(){
     const [message, setMessage] = useState('');
 
     const handleclick = async (event : any) => {
+        event.preventDefault();
         const checkemail = (input : string) => {
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
             return emailRegex.test(input);
         };
-
-        event.preventDefault();
 
         if (((!email || !mobile) || !message) && ((!email || !mobile) || message))
         {
@@ -42,7 +41,7 @@ export default function GetInTouc(){
                     const response = await fetch('/api', {
                         method: 'POST',
                         headers: {
-                            'Content-type': 'application/json',
+                            'Content-Type': 'application/json',
                         },
                         body: JSON.stringify({email, mobile, message})
                     });
@@ -51,10 +50,11 @@ export default function GetInTouc(){
                         toast.success('successfully completed.');
                     }
                     else{
-                        toast.error("This didn't work.");
+                        toast.error("Code Exception Detected. Hold off sending");
                     }
                 }catch(error){
                     console.log('Error: ', error);
+                    toast.error('An error occurred during the fetch operation.');
                 }
             }
         }
