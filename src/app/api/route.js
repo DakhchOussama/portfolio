@@ -24,12 +24,12 @@ export async function POST(request){
                     const Transport = nodemailer.createTransport({
                         service: 'gmail',
                         auth: {
-                            user: process.env.NEXT_PUBLIC_EMAIL_USER,
-                            pass: process.env.NEXT_PUBLIC_EMAIL_PASSWORD,
+                            user: "oussamadakhch1999@gmail.com",
+                            pass: "xidm zghy dihh hyhh",
                         },
                     });
                     const mailOptions = {
-                        from: process.env.NEXT_PUBLIC_EMAIL_USER,
+                        from: "oussamadakhch1999@gmail.com",
                         to: 'portfolio-email@example.com',
                         subject: 'Portfolio Message',
                         text: `Email: ${email}\n Mobile: ${mobile} Message: ${message}`,

@@ -1,11 +1,13 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import toast, { Toaster } from 'react-hot-toast';
 
 export default function GetInTouc(){
     const [email, setEmail] = useState('');
     const [mobile, setMobile] = useState('');
     const [message, setMessage] = useState('');
+
+     
 
     const handleclick = async (event : any) => {
         event.preventDefault();
@@ -38,7 +40,7 @@ export default function GetInTouc(){
             else
             {
                 try{
-                    const response = await fetch('/api', {
+                    const response = await fetch('https://dakhchoussama.me/api', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
