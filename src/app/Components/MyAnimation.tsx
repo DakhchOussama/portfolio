@@ -9,7 +9,6 @@ export default function MyAnimation({children} : MyAnimationProps){
   
     const [chevron, setchevron] = useState(0);
     const elementStyles = {
-        /* Your initial styles here */
         transitionProperty: 'transform',
         transitionTimingFunction: 'ease-out',
         transitionDuration: '500ms',

@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=IBM+Plex+Sans:wght@200&family=Roboto:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Nova+Square&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
@@ -1204,6 +1200,10 @@ p#eco-para {
     width: 20px;
     height: 20px;
   }
+  .education-container {
+    height: auto;
+    width: 74%;
+  }
   .navbar-back{
     width: 94%;
     padding: 10px 0px;
@@ -1491,5 +1491,8 @@ p#eco-para {
 }
 .button-link span{
   right: 62px;
+}
+.container-quote {
+  bottom: 25px;
 }
 }

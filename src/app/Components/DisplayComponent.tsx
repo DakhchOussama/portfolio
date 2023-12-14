@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React, {useRef} from "react";
 import CaseStudies from './CaseStudies';
 import NavBar from './NavBar';
 import Section from './Section';
