@@ -7,8 +7,6 @@ export default function GetInTouc(){
     const [mobile, setMobile] = useState('');
     const [message, setMessage] = useState('');
 
-     
-
     const handleclick = async (event : any) => {
         event.preventDefault();
         const checkemail = (input : string) => {
@@ -39,23 +37,23 @@ export default function GetInTouc(){
             }
             else
             {
-                try{
-                    const response = await fetch('/api', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify({email, mobile, message})
+                try {
+                    const response = await fetch('https://formspree.io/f/xvojeevd', {
+                      method: 'POST',
+                      headers: {
+                        'Content-Type': 'application/json',
+                      },
+                      body: JSON.stringify({ email, mobile, message }),
                     });
-                    if (response.ok){
+              
+                    if (response.ok) {
                         toast.success('successfully completed.');
-                    }
-                    else{
+                    } else {
                         toast.error("Code Exception Detected. Hold off sending");
                     }
-                }catch(error){
+                  } catch (error) {
                     toast.error(`An error occurred during the fetch operation. ${error}`);
-                }
+                  }
             }
         }
     };
@@ -69,32 +67,32 @@ export default function GetInTouc(){
                         <p>I welcome your inquiries, ideas, and collaboration opportunities. Whether you have questions, feedback, or wish to explore potential partnerships, this is your direct pathway to communicate with me. Your thoughts matter, and I look forward to hearing from you.</p>
                     </div>
                     <div className="GetInTouc-container">
-                        <div className="GetInTouc-input">
-                            <label htmlFor="mail">Email</label>
-                            <input type="email" placeholder="Please enter your email" id="mail" value={email} onChange={(e) => {setEmail(e.target.value)}} required></input>
-                        </div>
-                        <div className="GetInTouc-input">
-                            <label htmlFor="mobilr">Mobile</label>
-                            <input type="text" placeholder="Enter mobile" id="mobile" value={mobile} onChange={(e) => {setMobile(e.target.value)}} required></input>
-                        </div>
-                        <div className="GetInTouc-input" id="GetInTouc-message">
-                            <label htmlFor="message">Message</label>
-                            <textarea placeholder="Message" id="message" value={message} onChange={(e) => {setMessage(e.target.value)}} required></textarea>
-                        </div>
-                        <div className="GetInTouc-buttom">
-                            <div className="identification-center-buttom">
-                                <form>
-                                    <a className="button-link" data-text="Submit" id="GetInTouc-a" onClick={handleclick}>
-                                    <span>T</span>
-                                    <span>h</span>
-                                    <span>a</span>
-                                    <span>n</span>
-                                    <span>k</span>
-                                    <span>s</span>
-                                    </a>
-                                </form>
+                        <form action="https://formspree.io/f/xvojeevd" method="POST">
+                            <div className="GetInTouc-input">
+                                <label htmlFor="mail">Email</label>
+                                <input type="email" placeholder="Please enter your email" name="email" id="mail" value={email} onChange={(e) => {setEmail(e.target.value)}} required></input>
                             </div>
-                        </div>
+                            <div className="GetInTouc-input">
+                                <label htmlFor="mobile">Mobile</label>
+                                <input type="text" placeholder="Enter mobile" id="mobile" name="mobile" value={mobile} onChange={(e) => {setMobile(e.target.value)}} required></input>
+                            </div>
+                            <div className="GetInTouc-input" id="GetInTouc-message">
+                                <label htmlFor="message">Message</label>
+                                <textarea placeholder="Message" id="message" name="message" value={message} onChange={(e) => {setMessage(e.target.value)}} required></textarea>
+                            </div>
+                            <div className="GetInTouc-buttom">
+                                <div className="identification-center-buttom">
+                                        <a className="button-link" data-text="Submit" id="GetInTouc-a" onClick={handleclick} >
+                                        <span>T</span>
+                                        <span>h</span>
+                                        <span>a</span>
+                                        <span>n</span>
+                                        <span>k</span>
+                                        <span>s</span>
+                                        </a>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
