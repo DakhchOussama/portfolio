@@ -67,7 +67,6 @@ export default function GetInTouc(){
                         <p>I welcome your inquiries, ideas, and collaboration opportunities. Whether you have questions, feedback, or wish to explore potential partnerships, this is your direct pathway to communicate with me. Your thoughts matter, and I look forward to hearing from you.</p>
                     </div>
                     <div className="GetInTouc-container">
-                        <form action="https://formspree.io/f/xvojeevd" method="POST">
                             <div className="GetInTouc-input">
                                 <label htmlFor="mail">Email</label>
                                 <input type="email" placeholder="Please enter your email" name="email" id="mail" value={email} onChange={(e) => {setEmail(e.target.value)}} required></input>
@@ -82,17 +81,18 @@ export default function GetInTouc(){
                             </div>
                             <div className="GetInTouc-buttom">
                                 <div className="identification-center-buttom">
+                                    <form>
                                         <a className="button-link" data-text="Submit" id="GetInTouc-a" onClick={handleclick} >
-                                        <span>T</span>
-                                        <span>h</span>
-                                        <span>a</span>
-                                        <span>n</span>
-                                        <span>k</span>
-                                        <span>s</span>
+                                            <span>T</span>
+                                            <span>h</span>
+                                            <span>a</span>
+                                            <span>n</span>
+                                            <span>k</span>
+                                            <span>s</span>
                                         </a>
+                                    </form>
                                 </div>
                             </div>
-                        </form>
                     </div>
                 </div>
             </div>
