@@ -33,11 +33,12 @@ export default function GetInTouc(){
         {
             if (!checkemail(email))
             {
-                toast.error("Please enter a valid email address");
+                toast.error("Please enter a valid email address or valid number");
             }
             else
             {
                 try {
+                    console.log('type : ', typeof mobile);
                     const response = await fetch('https://formspree.io/f/xvojeevd', {
                       method: 'POST',
                       headers: {

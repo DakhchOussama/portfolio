@@ -12,7 +12,7 @@ export default function Section(){
                         <p>My name is <span>Oussama Dakhch</span>, and I work as a Software Developer. I am deeply passionate about technology and enjoy crafting innovative solutions for complex problems. Known for my hardworking and dedicated nature, I am always eager to acquire new skills and techniques</p>
                         </div>
                         <div className="identification-center-buttom">
-                            <a className="button-link" target="_blank" href="https://drive.google.com/file/d/1U_xkZGAqamp9D0a9oPkWalOzDdOzhoVq/view?usp=sharing" data-text="Explore My CV">
+                            <a className="button-link" target="_blank" href="https://drive.google.com/file/d/1J7P-3vWUy2J9IiYPRoRO__fwXyZ2rdwL/view?usp=sharing" data-text="Explore My CV">
                             <span>T</span>
                             <span>h</span>
                             <span>a</span>
