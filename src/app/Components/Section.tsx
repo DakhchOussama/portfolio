@@ -23,7 +23,7 @@ export default function Section(){
                         </div>
                     </div>
                     <div className="identification-center-photo">
-                        <img src="mypicture.jpg" alt="photo"></img>
+                        <img src="nn_cleanup.jpeg" alt="photo"></img>
                     </div>
 
                 </div>

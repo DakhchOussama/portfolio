@@ -167,10 +167,12 @@ nav{
   align-items: center;
 }
 
-.identification-center-photo img{
+.identification-center-photo img {
   border-radius: 50%;
   width: 330px;
   height: 330px;
+  object-position: top;
+  object-fit: cover;
 }
 
 .identification-center-buttom {
@@ -902,6 +904,9 @@ p#eco-para {
 @media screen and (max-width: 1236px) {
   .CaseStudies-project1-right video{
     height: 62%;
+  }
+  .identification-center-photo {
+      width: 39%;
   }
 }
 
