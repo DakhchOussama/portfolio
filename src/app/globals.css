@@ -347,7 +347,7 @@ p#eco-para {
   align-items: center;
 }
 
-.CaseStudies-project1-right video{
+.CaseStudies-project1-right img{
   width: 80%;
   height: 80%;
 }
@@ -870,7 +870,7 @@ p#eco-para {
   .CaseStudies-container{
     width: 85%;
   }
-  .CaseStudies-project1-right video{
+  .CaseStudies-project1-right img{
     height: 73%;
     width: 85%;
   }
@@ -902,7 +902,7 @@ p#eco-para {
 }
 
 @media screen and (max-width: 1236px) {
-  .CaseStudies-project1-right video{
+  .CaseStudies-project1-right img{
     height: 62%;
   }
   .identification-center-photo {
@@ -936,7 +936,7 @@ p#eco-para {
 }
 
 @media screen and (max-width: 952px) {
-  .CaseStudies-project1-right video {
+  .CaseStudies-project1-right img {
     width: 93%;
     height: 56%;
   }
@@ -1032,7 +1032,7 @@ p#eco-para {
   .CaseStudies-project1-left a{
     height: 32px;
   }
-  .CaseStudies-project1-right video{
+  .CaseStudies-project1-right img{
     height: 49%;
     margin-top: 20px;
     width: 97%;
@@ -1236,7 +1236,7 @@ p#eco-para {
   .CaseStudies-project1-information h2 {
     font-size: 20px;
   }
-  .CaseStudies-project1-right video {
+  .CaseStudies-project1-right img {
     height: 73%;
     margin-top: 0;
   }
@@ -1384,7 +1384,7 @@ p#eco-para {
   #CaseStudies-project-first {
     height: 37%;
   }
-  .CaseStudies-project1-right video{
+  .CaseStudies-project1-right img{
     margin-top: 22px;
   }
   .transcendance-lang{
@@ -1396,7 +1396,7 @@ p#eco-para {
   .CaseStudies-section {
     height: 33cm;
   }
-  .CaseStudies-project1-right video {
+  .CaseStudies-project1-right img {
     height: 100%;
     margin-top: 0;
     width: 100%;
