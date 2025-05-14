@@ -25,19 +25,21 @@ export default function CaseStudies(){
                             <a href="https://github.com/iel-bakk/42-FT_IRC" target="_blank">View in github<img src="./social.png" alt="photo"></img></a>
                         </div>
                         <div className="CaseStudies-project1-right">
-                            <video loop muted autoPlay id="irc-video">
-                                <source src="https://drive.google.com/uc?id=11FZRM1zgVm0Vfd1czQOPMc9TYnVPE6Uc" type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
+                            <img 
+                                src="/irc.png" 
+                                alt="IRC Project Preview" 
+                                className="project-placeholder-image" 
+                            />
                         </div>
                     </div>
                     {/* project 2 */}
                     <div className="CaseStudies-project1" id="CaseStudies-different">
                         <div className="CaseStudies-project1-right">
-                            <video loop muted autoPlay>
-                                <source src="https://drive.google.com/uc?id=1gzmvq8gXpFZhjA0fs9KOKfCyKevYSoEZ" type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
+                            <img 
+                                src="/cub.png" 
+                                alt="Cub3D Project Preview" 
+                                className="project-placeholder-image" 
+                            />
                         </div>
                         <div className="CaseStudies-project1-left" id="CaseStudies-different-right">
                         <div className="CaseStudies-lang">
@@ -72,10 +74,11 @@ export default function CaseStudies(){
                             <a href="https://github.com/soufiane-amt/ft_transcendance" target="_blank" id="btn-tran" >View in github<img src="./social.png" alt="photo"></img></a>
                         </div>
                         <div className="CaseStudies-project1-right">
-                            <video loop muted autoPlay>
-                                <source src="https://drive.google.com/uc?id=1EAdg1QrOt5rekxXiWxJOaio2a8s8Oh9k" type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
+                            <img 
+                                src="/transcendence.png" 
+                                alt="Ft_Transcendence Project Preview" 
+                                className="project-placeholder-image" 
+                            />
                         </div>
                     </div>
                 </div>
